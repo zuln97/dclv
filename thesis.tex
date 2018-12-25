@@ -1,0 +1,43 @@
+\documentclass[a4paper,12pt,oneside,backref]{book}
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\include{thesis.preamble}
+\usepackage{listings}
+
+
+
+% Title inputs
+\university{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH\\TRƯỜNG ĐẠI HỌC BÁCH KHOA}
+\faculty{KHOA ĐIỆN - ĐIỆN TỬ\\BỘ MÔN VIỄN THÔNG}    
+\title{CÔNG NGHỆ UHF RFID}
+\image{\includegraphics[scale=.8]{ThesisFigs/HCMUTLogo}} 
+\supervisor{TS. TRỊNH XUÂN DŨNG}
+\author{NGUYỄN DUY LUÂN - 1511889\\NGUYỄN VĂN BẢO SƠN - 1512852}   
+\submitdate{Thành phố Hồ Chí Minh, tháng 12 năm 2018}
+
+\begin{document}
+
+\maketitle
+
+\preface
+
+
+
+\input{Acknowledgements/acknowledgements}
+\input{Abstract/abstract}
+
+\body
+\input{Chapter1/chapter1}
+\input{Chapter3/chapter3}
+\input{Chapter5/conclusion}
+\input{Chapter6/Chapter6}
+\appendix
+
+
+\addcontentsline{toc}{chapter}{Tài liệu tham khảo}
+\bibliographystyle{IEEEtran}
+\bibliography{Bibliography/bibliography}
+
+\end{document}

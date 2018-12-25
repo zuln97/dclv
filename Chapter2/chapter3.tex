@@ -1,0 +1,143 @@
+\headerandfooterconfig
+\graphicspath{Chapter3/Chapter3Figs/}
+\chapter{Thiết kế và thực hiện phần cứng}
+
+\section{Thiết kế phần cứng} Kiến trúc phần cứng của hệ thống nhận dạng ổ gà gồm phần thiết bị tích hợp cảm biến giúp xác định ổ gà, định vị GPS để xác định vị trí của ổ gà và module thu phát sóng GSM để gửi dữ liệu ổ gà về phía server. Ngoài ra còn có thiết kế phần nguồn và hộp bảo vệ cho hệ thống.
+\subsection{Yêu cầu thiết kế}
+\begin{itemize}
+\item Vì thiết bị được gắn trên các phương tiện giao thông nên phải có thiết kế nhỏ gọn.
+\item Vì phải trong môi trường rung lắc thường nên thiết bị phải có độ bền tốt, có phần vỏ hộp bảo vệ hạn chế va đập, bụi bẩn.
+\item Đảm bảo thu phát tín hiệu tốt, độ trễ thấp.
+\item Chi phí thiết kế, thi công, bảo dưỡng thấp.
+\item Sử dụng ít năng lượng.
+\item Thân thiện với môi trường.
+\end{itemize}
+\subsection{Các linh kiện được sử dụng}
+\subsubsection{Cảm biến siêu âm SRF04}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_3}{Cảm biến siêu âm SFR04}
+\label{ref{fig3_3}}
+\paragraph{Mô tả}
+Cảm biến siêu âm hoạt động bằng cách phát đi 1 xung tín hiệu và đo thời gian nhận được tín hiệu trở vể. Sau khi đo được tín hiệu trở về trên cảm biến siêu âm, ta tính được thời gian từ lúc phát đến lúc nhận được tín hiệu. Từ thời gian này có thể tính ra được khoảng cách.\\
+Nếu đo được chính xác thời gian và không có nhiễu, mạch cảm biến siêu âm trả về kết quả cực kì chính xác. Điều này phụ thuộc vào cách viết chương trình không sử dụng các hàm delay.\\
+Lưu ý: Sóng siêu âm chỉ bị dội lại khi gặp 1 số loại vật cản, nếu phát sóng siêu âm vào chăn, nệm bạn sẽ không nhận được sóng phản hồi. có thể sử dụng các loại chip thông dụng để nhận và xử lý dữ liệu như 8051, AVR, PIC, Arduino . . .
+\paragraph{Thông số kỹ thuật}
+\begin{itemize}
+\item Nguồn cung cấp: 5V DC
+\item Dòng : 30mA (Max 50mA)
+\item Tần số hoạt động : 40KHz
+\item Khoảng cách lớn nhất đo được  : 6m
+\item Khoảng cách nhỏ nhất đo được : 3cm
+\item Góc quét : 45$^\circ$.
+\item Kích thước module: 45x20mm.
+\end{itemize}
+\paragraph{Công dụng}
+\begin{itemize}
+\item Robot dò đường
+\item Đo mực chất lỏng
+\item Sử dụng chống va chạm trong các băng chuyền
+\item Kiểm tra ,giám sát tình trạng của nguyên liệu gia công
+\item Phát hiện ,giám sát chiều cao của vật
+Ngoài ra, còn có thể dụng cảm biển SRF05 chức năng cũng tương tự.
+\end{itemize}
+\subsubsection{Module GPS NEO-6M}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_7}{Module GPS NEO-6M}
+\label{ref{fig3_7}}
+\paragraph{Mô tả}
+Module GPS NEO-6M là một trong các module NEO-6M của hãng Ublox. Đây là một bộ định vị GPS với hiệu suất cao, giá thành rẻ và kích thước nhỏ gọn (16x12x2x2.4mm).\\
+Với kiến trúc nhỏ gọn, mạnh mẽ và có các tùy chọn bộ nhớ đã làm cho NEO-6M lý tưởng cho các thiết bị di đông với giá rẻ và có diện tích nhỏ.
+\paragraph{Thông số kỹ thuật}
+Loại module được sử dụng là loại có cổng micro USB và gắn liền anten
+\begin{itemize}
+\item Điện áp vào: 3.3 -5V
+\item Công suất tiêu thụ: <80mW/1.8V 120mW/3.0V
+\item Công suất cung cấp chờ: 1.3V-4.8V, 30uA
+\item Kiểu Anten: active or passive
+\item Hỗ trợ GPS
+\item Hỗ trợ các chuẩn giao tiếp: UART, USB, SPI, DDC
+\item Hỗ trợ thạch anh RTC
+\item Hỗ trợ anten
+\item Nhiệt độ hoạt động: -40~+85$^\circ$.
+\item Kích thước 16x12.2x2.4mm
+\end{itemize}
+
+\subsubsection{Module Sim 800a}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_5}{Mặt trước Mạch GSM GPRS Sim800A (SIM900A Update)}
+\label{ref{fig3_5}}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_6}{Mặt sau Mạch GSM GPRS Sim800A (SIM900A Update)}
+\label{ref{fig3_6}}
+\paragraph{Mô tả}
+Mạch GSM GPRS Sim800A (SIM900A update) tích hợp nguồn xung và ic đệm được thiết kế cho các ứng dụng cần độ bền và độ ổn định cao.\\
+Mạch GSM GPRS Sim800A (SIM900A update) tích hợp nguồn xung và ic đệm được thiết kế nhỏ gọn nhưng vẫn giữ được các yếu tố cần thiết của thiết kế Module Sim như: Mạch chuyển mức tín hiệu logic sử dụng Mosfet, IC giao tiếp RS232 MAX232, mạch nguồn xung dòng cao, khe sim chuẩn và các đèn led báo hiệu, mạch còn đi kèm với Anten GSM.
+\paragraph{Thông số kỹ thuật}
+\begin{itemize}
+\item Sử dụng module GSM GPRS Sim800A.
+\item Nguồn cấp đầu vào: 5 - 18VDC, lớn hơn 1A.
+\item Mức tín hiệu giao tiếp: TTL (3.3-5VDC) hoặc RS232.
+\item Tích hợp chuyển mức tín hiệu TTL Mosfet tốc độ cao.
+\item Tích hợp IC chuyển mức tín hiệu RS232 MAX232.
+\item Tích hợp nguồn xung với dòng cao cung cấp cho Sim800A.
+\item Sử dụng khe Micro Sim.
+\item Thiết kế mạch nhỏ gọn, bền bỉ, chống nhiễu.
+\end{itemize}
+\textbf{Thứ tự các chân:}
+\textit{\textbf{Header 1: }}
+\begin{itemize}
+\item VCC: Nguồn dương từ 5-18VDC, lớn hơn 1A
+\item GND: Mass, 0VDC.
+\item EN: Mặc định nối lên cao, chức năng dùng để khởi động (Enable) hoặc dừng hoạt động (Disable) Module Sim800, nếu nếu muốn module Sim800 dừng hoạt động bạn có thể nối chân này xuống âm GND (0VDC).
+\item 232R: Chân nhận tín hiệu RS232.
+\item 232T: Chân truyền tín hiệu RS232
+\item GND: Mass, 0VDC.
+\item RXD: Chân nhận tín hiệu TTL, chấp nhận mức 3.3 và 5VDC.
+\item TXD: Chân truyền tín hiệu TTL, chấp nhận mức 3.3 và 5VDC.
+\end{itemize}
+\textit{\textbf{Header 2: }}
+\begin{itemize}
+\item BRXD: Thường không sử dụng, chân nhận tín hiệu, dùng để giao tiếp nạp Firmware cho Sim800, mức tín hiệu 3.3VDC.
+\item BTXD: Thường không sử dụng, chân truyền tín hiệu, dùng để giao tiếp nạp Firmware cho Sim800, mức tín hiệu 3.3VDC.
+\item GND: Mass, 0VDC.
+\item EPN: Ngõ ra loa Speaker âm
+\item EPP: Ngõ ra loa Speaker dương.
+\item MICP: Ngõ vào Micro dương.
+\item MICN: Ngõ vào Micro âm.
+\end{itemize}
+Để test hoạt động của module, nhóm đã dùng Mạch Chuyển USB UART CP2102 chuyển từ USB sang UART và truyền lệnh AT trực tiếp từ máy tính.
+\subsubsection{Arduino UNO R3}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_4}{Arduino UNO R3}
+\label{ref{fig3_4}}
+\paragraph{Mô tả}
+Arduino board có rất nhiều phiên bản với hiệu năng và mục đích sử dụng khác nhau như: Arduino Mega, Aruino LilyPad... Trong số đó, Arduino Uno R3 là một trong những phiên bản được sử dụng rộng rãi nhất bởi chi phí và tính linh động của nó.\\
+Arduino Uno được xây dựng với phân nhân là vi điều khiển ATmega328P sử dụng thạch anh có chu kì dao động là 16 MHz. Với vi điều khiển này, ta có tổng cộng 14 pin (ngõ) ra / vào được đánh số từ 0 tới 13 (trong đó có 6 pin PWM, được đánh dấu $~$ trước mã số của pin). Song song đó, ta có thêm 6 pin nhận tín hiệu analog được đánh kí hiệu từ A0 - A5, 6 pin này cũng có thể sử dụng được như các pin ra / vào bình thường (như pin 0 - 13). Ở các pin được đề cập, pin 13 là pin đặc biệt vì nối trực tiếp với LED trạng thái trên board.\\
+Trên board còn có 1 nút reset, 1 ngõ kết nối với máy tính qua cổng USB và 1 ngõ cấp nguồn sử dụng jack 2.1mm lấy năng lượng trực tiếp từ AC-DC adapter hay thông qua ắc-quy nguồn.\\
+\paragraph{Thông số kỹ thuật}
+\begin{itemize}
+\item Chip vi xử lý: Atmega328.
+\item Điện áp hoạt động 5VDC.
+\item Chân digital 14.
+\item Chân analog 6.
+\item Dòng ra chân digital 40mA.
+\item Dòng ra chân 3.3VDC là 50mA.
+\item Dung lượng bộ nhớ Flas 32KB.
+\item Sram 2KB.
+\item EEprom 1KB.
+\item Tốc độ 16Mhz.
+\end{itemize}
+\subsection{Tổng quan kiến trúc phần cứng}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_8}{Tổng quan kiến trúc phần cứng}
+\label{ref{fig3_8}}
+\section{Thực hiện phần cứng}
+\subsection{Thi công làm mạch thiết bị}
+\subsubsection{Chức năng}
+Mạch giúp kết nối các linh kiện.\\
+Các yêu cầu:
+\begin{itemize}
+\item Mạch đảm bảo các kết nối bền vững, chắc chắn.
+\item Mạch gọn gàng và thẩm mỹ.
+\item Mạch có hộp bảo vệ, hạn chế va đập, chống nước, chống bụi. (Phần mở rộng)
+\end{itemize}
+\subsubsection{Phần schematic}
+\subsubsection{Phần mạch in}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_1}{PCB mặt dưới}
+\label{ref{fig3_1}}
+\Figure{htp}{9}{Chapter3/Chapter3Figs/fig3_2}{PCB mặt trên}
+\label{ref{fig3_2}}
