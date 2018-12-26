@@ -1,0 +1,103 @@
+\headerandfooterconfig
+\graphicspath{Chapter1/Chapter1Figs/}
+\chapter{Cơ sở lý thuyết}
+
+\section{Công nghệ RFID UHF}
+Công nghệ RFID viết tắt bởi Radio Frequency Identification là một trong những công nghệ nhận dạng dữ liệu tự động tiên tiến nhất hiện nay có tính khả thi cao và áp dụng trong thực tế rất hiệu quả. RFID đang hiện diện trong rất nhiều lĩnh vực tự động hóa, rất nhiều ứng dụng quản lý và các mô hình tổ chức khác nhau nhằm đem lại những giải pháp nhận dạng dữ liệu tự động tối ưu và hiệu quả hơn.
+\subsection{Công nghệ RFID là gì?}
+Công nghệ RFID (Radio Frequency Identification) cho phép một thiết bị đọc thông tin chứa trong chip không tiếp xúc trực tiếp ở khoảng cách xa, không thực hiện bất kỳ giao tiếp vật lý nào hoặc giữa hai vật không nhìn thấy. Công nghệ này cho ta phương pháp truyền, nhận dữ liệu từ một điểm đến điểm khác. \\
+Kỹ thuật RFID sử dụng truyền thông không dây trong dải tần sóng vô tuyến để truyền dữ liệu từ các tag (thẻ) đến các reader (bộ đọc). Tag có thể được đính kèm hoặc gắn vào đối tượng được nhận dạng chẳng hạn sản phẩm, hộp hoặc giá kệ (pallet). Reader scan dữ liệu của tag và gửi thông tin đến cơ sở dữ liệu có lưu trữ dữ liệu của tag. Chẳng hạn, các tag có thể được đặt trên kính chắn gió xe hơi để hệ thống thu phí đường có thể nhanh chóng nhận dạng và thu tiền trên các tuyến đường.\\
+Dạng đơn giản nhất được sử dụng hiện nay là hệ thống RFID bị động làm việc như sau: reader truyền một tín hiệu tần số vô tuyến điện từ qua anten của nó đến một con chip. Reader nhận thông tin trở lại từ chip và gửi nó đến máy tính điều khiển đầu đọc và xử lý thông tin lấy được từ chip. Các chip không tiếp xúc không tích điện, chúng hoạt động bằng cách sử dụng năng lượng nhận từ tín hiệu được gửi bởi reader.
+\subsection{Lịch sử phát triển của công nghệ RFID}
+Lịch sử RFID đánh dấu từ những năm 1930 nhưng công nghệ RFID có nguồn gốc từ năm 1897 khi Guglielmo Marconi phát ra radio. RFID áp dụng các nguyên tắc vật lý cơ bản như truyền phát rad ng điện từ truyền và nhận dạng dữ liệu khác nhau.\\
+Để hiểu rõ hơn về sự giống nhau này, hình dung một trạm radio phát ra âm thanh hoặc âm nhạc qua một bộ phát. Dữ liệu này cần phải mã hóa sang dạng sóng radio có tần số xác định. Tại những vị trí khác nhau, người nghe có một máy radio để giải mã dữ liệu từ trạm phát (âm thanh hoặc âm nhạc). Mọi người đều nhận biết được sự khác nhau về chất lượng sóng radio khi ngồi trên xe hơi. Khi di chuyển càng xa bộ phát tín hiệu thu được càng yếu. Khoảng cách theo các hướng hoặc các vùng mà sóng radio phát ra có thể bao phủ được xác định bởi điều kiện môi trường, kích thước và năng lượng của anten tại mỗi đường giao tiếp. Sử dụng thuật ngữ RFID, có chức năng như một trạm truyền gọi là một transponder (tag) được tạo thành từ 2 thuật ngữ transmitter và responder; vật có chức năng như radio gọi là reader (bộ đọc) hay interrogator. Anten xác định phạm vi đọc (range).\\
+Ba thành phần tag, reader và anten là những khối chính của một hệ thống RFID. Khi thay đổi về năng lượng, kích thước, thiết kế anten, tần số hoạt động, số lượng dữ liệu và phần mềm để quản lý và xuất dữ liệu tạo ra rất nhiều ứng dụng. Công nghệ RFID có thể giải quyết rất nhiều bài toán kinh doanh thực tế.
+\subsubsection{Thời kỳ đầu của RFID}
+Các máy thu GPS ngày nay cực kì chính xác, nhờ vào thiết kế nhiều kênh hoạt động song song của chúng. Các máy thu 12 kênh song song (của Garmin) nhanh chóng khóa vào các quả vệ tinh khi mới bật lên và chúng duy trì kết nối bền vững, thậm chí trong tán lá rậm rạp hoặc thành phố với các toà nhà cao tầng. Trạng thái của khí quyển và các nguồn gây sai số khác có thể ảnh hưởng tới độ chính xác của máy thu GPS. Các máy thu GPS có độ chính xác trung bình trong vòng 15 mét.\\
+Các máy thu mới hơn với khả năng WAAS (Wide Area Augmentation System) có thể tăng độ chính xác trung bình tới dưới 3 mét. Không cần thêm thiết bị hay mất phí để có được lợi điểm của WAAS. Người dùng cũng có thể có độ chính xác tốt hơn với GPS vi sai (Differential GPS, DGPS) sửa lỗi các tín hiệu GPS để có độ chính xác trong khoảng 3 đến 5 mét. Cục Phòng vệ Bờ biển Mỹ vận hành dịch vụ sửa lỗi này. Hệ thống bao gồm một mạng các đài thu tín hiệu GPS và phát tín hiệu đã sửa lỗi bằng các máy phát hiệu. Để thu được tín hiệu đã sửa lỗi, người dùng phải có máy thu tín hiệu vi sai bao gồm cả ăn-ten để dùng với máy thu GPS của họ.
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_1}{Thiết bị IFF (bên trái), thiết bị RFID (tích cực) hiện đại ngày nay}
+\label{ref{fig2_1}}
+\\
+Những công nghệ mới những sản phẩm này gọn hơn và giá rẻ hơn như: công nghệ tích hợp trong IC, chip nhớ lập trình được, vi xử lý, những phần mềm ứng dụng hiện đại ngày nay và những ngôn ngữ lập trình làm cho công nghệ RFID đang có xu hướng chuyển sang lĩnh vực thương mại rộng lớn.\\
+Cuối thập kỉ 60 đầu thập kỉ 70 nhiều công ty như Sensormatic and Checkpoint Systems giới thiệu những sản phẩm mới ít phức tạp hơn và ứng dụng rộng rãi hơn. Những công ty này bắt đầu phát triển thiết bị giám sát điện tử (electronic article surveillance EAS) để bảo vệ và kiểm kê sản phẩm như quần áo trong cửa hàng, sách trong thư viện. Hệ thống RFID thương mại ban đần này chỉ là hệ thống RFID tag một bit (1-bit tag) giá rẻ để xây dựng, thực hiện và bảo hành. Tag không đòi hỏi nguồn pin (loại thụ động) dễ dàng đặt vào sản phẩm và thiết kế để khởi động chuông cảnh báo khi tag đến gần bộ đọc, thường đặt tại lối ra vào, phát hiện sự có mặt của tag.	
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_2}{Các mốc thời gian quan trọng trong giai đoạn đầu của RFID}
+\label{ref{fig2_2}}
+
+\subsubsection{Phát hiện các vật thể riêng biệt}
+Suốt thập kỷ 70, công nghiệp sản xuất, vận chuyển bắt đầu nghiên cứu và phát triển những dự án để tìm cách dùng IC dựa trên hệ thống RFID. Có nhiều ứng dụng trong công nghiệp tự động, xác định thú vật, theo dõi lưu thông. Trong giai đoạn này tag có IC tiếp tục phát triển và đặc tính: bộ nhớ ghi được, tốc độ đọc nhanh hơn và khoảng cách đọc xa hơn.\\
+Đầu thập niên 80 công nghệ phức tạp RFID được áp dụng trong nhiều ứng dụng: đặt tại đường ray ở Mỹ, đánh dấu thú vật trên nông trại ở châu Âu. Hệ thống RFID còn dùng trong nghiên cứu động vật hoang dã đánh dấu các loài nguy hiểm. Vào thập niên 90, hệ thống thu phí điện tử trở nên phổ biến ở Thái Bình Dương: Ý, Tây Ban Nha, Bồ Đào Nha… và ở Mỹ: Dallas, New York và New Jersey. Những hệ thống này cung cấp những dạng truy cập điều khiển phức tạp hơn bởi vì nó còn bao gồm cả máy trả tiền.\\
+Đầu năm 1990, nhiều hệ thống thu phí ở Bắc Mỹ tham gia một lực lượng mang tên EZPass Interagency Group (IAG) cùng nhau phát triển những vùng có hệ thống thu phí điện tử tương thích với nhau. Đây là cột mốc quan trọng để tạo ra những ứng dụng tiêu chuẩn. Hầu hết những tiêu chuẩn tập trung các đặc tính kỹ thuật như tần số hoạt động và giao thức giao tiếp phần cứng. \\
+E-Zpass còn là một tag đơn tương ứng với một tài khoản trên một phương tiện. Tag của xe sẽ truy cập vào đường cao tốc của hệ thống thu phí mà không phải dừng lại. E-Z Pass giúp lưu thông dễ dàng hơn và giảm lực lượng lao động để kiểm soát vé và thu tiền.\\
+Cùng vào thời điểm này, khóa (card RFID) sử dụng phổ biến thay thế cho các thiết bị máy móc điều khiển truy nhập truyền thống như khóa kim loại và khóa số. Những sản phẩm này còn được gọi là thẻ thông minh không tiếp xúc cung cấp thông tin về người dùng, trong khi giá thành thấp để sản xuất và lập trình. Hình 1.3 so sánh các phương pháp điều khiển truy cập thông thường và điều khiển truy cập RFID:
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_3}{Các phương pháp điều khiển truy cập thông thường và điều khiển truy cập RFID}
+\label{ref{fig2_3}}
+\\
+Điều khiển truy nhập RFID tiếp tục có những bước tiến mới. Các nhà sản xuất xe hơi đã dùng tag RFID tr	ong gần một thập kỉ qua cho hệ thống đánh lửa xe hơi và nó đã làm giảm khả năng trộm cắp xe.
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_4}{Những mốc thời gian quan trọng từ năm 1960 đến 1990}
+\label{ref{fig2_4}}
+
+\subsubsection{RFID phát triển trên toàn cầu}
+Cuối thế kỉ 20, số lượng các ứng dụng RFID hiện đại bắt đầu mở rộng theo hàm mũ trên phạm vi toàn cầu. Dưới đây là một vài bước tiến quan trọng góp phần đẩy mạnh sự phát triển này. Texas Instrument đi tiên phong ở Mỹ  năm 1991, công ty đã tạo ra một hệ thống xác nhận và đăng ký Texas Instrument (TIRIS). Hệ thống TI-RFID (Texas Instruments Radio Frequency Identification System) n tản cho phát triển và thực hiện những lớp mới của ứng dụng RFID. Châu Âu đã bắt đầu công nghệ RFID từ rất sớm.\\
+Ngay cả trước khi Texas Instrument giới thiệu sản phẩm RFID, vào năm 1970 EM Microelectronic-Marin một công ty của The Swatch Group Ltd đã thiết kế mạch tích hợp năng lượng thấp cho những đồng hồ của Thụy Sỹ. Năm 1982 Mikron Integrated Microelectronics phát minh ra công nghệ ASIC và năm 1987 phát triển công nghệ đặc biệt liên quan đến việc xác định thẻ thông minh. Ngày nay EM Microelectronic và Philips Semiconductors là hai nhà sản xuất lớn ở châu Âu về lĩnh vực RFID.\\
+Cách đây một vài năm các ứng dụng chủ yếu của thẻ RFID thụ động, như minh họa trong bảng 2.2 mới được ứng dụng ở tần số thấp (LF) và tần số cao (HF) của phổ RF. Cả LF và HF đều giới hạn khoảng cách và tốc độ truyền dữ liệu. Cho những mục đích thực tế khoảng cách của những ứng dụng này đo bằng inch. Việc giới hạn tốc độ ngăn cản việc đọc của ứng dụng khi hàng trăm thậm chí hàng ngàn tag cùng có mặt trong trường của bộ đọc tại một thời điểm. Cuối thập niên 90 tag thụ động cho tần số siêu cao (UHF) làm cho khoảng cách xa hơn, tốc độ cao hơn, giá cả rẻ hơn, tag thụ động này đã vượt qua những giới hạn của nó; Với những thuộc tính thêm vào hệ thống RFID dựa trên UHF được lựa chọn cho những ứng dụng dây chuyền cung cấp như quản lý nhà kho, kiểm kê sản phẩm.
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|}
+	\hline 
+	LF & HF \\ 
+	\hline 
+	Điều khiển truy nhập & Xác định động vật \\ 
+	\hline 
+	Xác định hàng hóa trên máy bay & Thanh toán tiền \\ 
+	\hline 
+	Chống trộm xe hơi & Giám sát điện tử \\ 
+	\hline 
+	Đánh dấu tài liệu & Định thời cho thế thao \\ 
+	\hline 
+	\end{tabular} 
+	\caption{Các ứng dụng tiêu biểu dùng công nghệ RFID LF và HF}
+	\label{bang1}
+\end{table}
+\\
+Cuối những năm 1990 đầu năm 2000, các nhà phân phối như Wal-Mart, Target, Metro Group và các cơ quan chính phủ như U.S. Department of Defense (DoD) bắt đầu phát triển và yêu cầu việc sử dụng RFID bởi nhà cung cấp. Vào thời điểm này EPCglobal được thành lập, EPCglobal đã hỗ trợ hệ thống mã sản phẩm điện tử (Electronic Product Code Network EPC) hệ thống này đã trở thành tiêu chuẩn cho xác nhận sản phẩm tự động.
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_5}{Những mốc thời gian quan trọng từ năm 1990 đến nay}
+\label{ref{fig2_5}}
+
+\subsection{Phân loại hệ thống RFID}
+Hệ thống RFID có thể được chia nhỏ theo các nhóm tần số mà chúng hoạt động: tần số thấp, tần số cao, và tần số cực cao. Ngoài ra còn có hai loại của hệ thống RFID là hệ thống chủ động và hệ thống thụ động.
+\Figure{htp}{12}{Chapter2/Chapter2Figs/fig2_6}{Phân loại hệ thống RFID theo tần số}
+\label{ref{fig2_6}}
+\subsubsection{Các dải tần số RFID}
+Tần số phụ thuộc vào kích cỡ của các sóng radio  được sử dụng trong việc giao tiếp giữa các thành phần hợp thành nên hệ thống. Hệ thống RFID trên toàn thế giới hoạt động chủ yếu theo ba nhóm: tần số thấp (LF), tần số cao (HF) và tần số siêu cao (UHF). Các sóng radio truyền khác nhau  tại mỗi dải tần số với nhiều thuận lợi và hạn chế trong mối liên kết với việc sử dụng mỗi nhóm tần số.\\
+Nếu một hệ thống RFID hoạt động tại một dải tần số thấp, thì nó sẽ có phạm vi đọc ngắn hơn và tốc độ đọc dữ liệu cũng chậm hơn, nhưng lại tăng khả năng đọc trên các bề mặt chất lỏng, trong phạm vi gần hoặc trên các bề mặt kim loại. Nếu một hệ thống hoạt động tại một dải tần số cao, nhìn chung nó sẽ có tốc độ chuyển dữ liệu nhanh hơn, và phạm vi đọc cũng sẽ dài hơn so với các hệ thống sử dụng dải tần số thấp, tuy nhiên nó lại nhạy cảm với sự can thiệp của sóng radio gây ra bởi các chất lỏng và các chất kim loại trong môi trường.
+\paragraph{LF RFID}
+Nhóm LF bao phủ tần số trong khoảng từ 30KHz tới 300 KHz. Các hệ thống LF RFID tiêu biểu thì hoạt động tại 125 KHz, mặc dù có một vài hệ thống hoạt động tại 134 KHz. Nhóm tần số này đáp ứng phạm vi đọc ngắn chỉ khoảng 10 cm, và có tốc độ đọc chậm hơn so với các dải tần số cao, tuy nhiên nó lại không dễ bị tác động bởi sự can thiệp của sóng radi\\
+Các ứng dụng LF RFID bao gồm việc kiểm soát tài sản và theo dõi vật nuôi.\\
+Các tiêu chuẩn cho hệ thống theo dõi động vật LF được miêu tả rõ trong ISO 14223 và ISO/IEC 18000-2.  Dải LF không được công nhận như một ứng dụng thực sự trên toàn thế giới bởi  một vài khác biệt trong các mức độ tần số và  năng lượng trên toàn thế giới.
+\paragraph{HF RFID}
+Nhóm HF hoạt động trong phạm vi từ 3 MHZ đến 30 MHz. Đa số các hệ thống HF RFID hoạt động tại 13,56 MHz với phạm vi đọc vào khoảng giữa 10 cm tới 1 mét. Các hệ thống HF thí nghiệm độ nhạy vừa phải để can thiệp.\\
+HF RFID thường được sử dụng cho việc bán vé,  thanh toán, và các ứng dụng chuyển dữ liệu.\\
+Có một vài tiêu chuẩn HF RFID được đặt ra như tiêu chuẩn ISO 15693 cho việc theo dõi các mặt hàng, hay các tiêu chuẩn ECMA-340 và ISO/IEC 18092 cho Near Field Communication (NFC) – thiết bị tầm ngắn được sử dụng  trong việc trao đổi dữ liệu giữa các thiết bị. Các tiêu chuẩn HF khác bao gồm: tiêu chuẩn ISO/IEC 14443 A và tiêu chuẩn ISO/IEC 14443 cho công nghệ MIFARE được sử dụng trong các thẻ thông minh và các thẻ ở khoảng cách gần; và tiêu chuẩn JIS X 6319-4 cho FeliCa – một hệ thống thẻ thông minh thường được sử dụng trong các thẻ tính tiền điện tử.
+\paragraph{UHF RFID}
+Nhóm UHF hoạt động trong phạm vi từ 300 MHz đến 3 GHz. Các hệ thống tuân theo tiêu chuẩn UHF Gen2 cho hệ thống RFID sử dụng nhóm từ 860 đến 960 MHz. Trong khi có một số khác biệt giữa tần số từ vùng này đến vùng khác, nhưng hệ thống UHF Gen2 RFID tại hầu hết các nước lại hoạt động trong khoảng giữa 900 và 915 MHz.\\
+Phạm vi đọc của các hệ thống UHF thụ động có thể ở trong khoảng 12 mét, và UHF RFID có tốc độ chuyển dữ liệu nhanh hơn so với LF hay HF. UHF RFID thường nhạy cảm nhất với các sự can thiệp, nhưng nhiều nhà chế tạo sản phẩm UHF đã tìm ra các cách để thiết kế thẻ, ăng-ten, và đầu đọc nhằm duy trì được hiệu suất cao ngay cả trong các môi trường có điều kiện  khó khăn. Các thẻ UHF thụ động dễ chế tạo và  chi phí sản xuất cũng rẻ hơn so với các thẻ LF và HF.\\
+UHF RFID được sử dụng  trong đa dạng các ứng dụng, từ quản lý việc kiểm kê hàng hóa trong các hoạt động bán lẻ tới chống hàng dược phẩm giả, hay cài đặt cấu hình cho các thiết bị không dây. Phần lớn  các dự án RFID mới đang sử dụng  UHF đều trái với LF và HF, tạo ra sự phân khúc nhanh nhất trong thị trường RFID.\\
+Nhóm UHF được quy định bởi một tiêu chuẩn toàn cầu gọi là tiêu chuẩn ECPglobal Gen2 (ISO 18000-6C) UHF.
+\Figure{htp}{14}{Chapter2/Chapter2Figs/fig2_7}{So sánh UHF và LF, HF}
+\label{ref{fig2_7}}
+
+\subsubsection{Các hệ thống chủ động, thụ động và BAP RFID}
+\paragraph{Các hệ thống RFID chủ động}
+Tại các hệ thống RFID chủ động , các thẻ tự có cho riêng mình hệ thống điều khiển và nguồn năng lượng. Thường  thường thì nguồn năng lượng đó chính là Pin. Các thẻ chủ động sẽ truyền đi các tín hiệu của chúng để chuyển thành thông tin rồi được lưu trữ trong các mạch vi xử lý của chúng.\\
+Hệ thống RFID chủ động hoạt động điển hình trong nhóm UHF và cung cấp phạm vi đọc lên đến 100 mét. Nhìn chung, các thẻ chủ động được sử dụng cho nhiều mục đích như các xe đường sắt, các container lớn tái sửu dụng, và các tài sản khác cần được theo dõi ở khoảng cách dài.\\
+Có hai loại thẻ chủ động chính là: các hệ thống tiếp sóng và đèn hiệu. Các hệ thống tiếp sóng được đánh thức khi chúng nhận được tín hiệu radio từ một đầu đọc,  và sau đó năng lượng sẽ bật và phản ứng lại bằng việc truyền tín hiệu quay trở lại. Bởi vì tiết kiệm Pin,  nên hệ thống tiếp sóng sẽ không tích cực phát ra sóng radio cho đến khi chúng nhận được tín hiệu từ đầu đọc.\\
+Các đèn hiệu được sử dụng ở đa số các hệ thống định vị thời gian thực (RTLS), cốt để việc theo dõi chính xác vị trí của một tài sản được thực hiện liên tục. Không giống với các hệ thống tiếp sóng,  đèn hiệu không được bật bởi tín hiệu của đầu đọc. Thay vào đó,  chúng nhả ra các tín hiệu tại các khoảng thời gian được đặt trước. Phụ thuộc vào cấp độ của việc yêu cầu chính xác địa điểm, các đèn hiệu có thể được thiết lập để nhả ra tín hiệu mỗi lần trong vài giây,  hoặc một lần mỗi ngày. Mỗi tín hiệu đèn hiệu được nhận bởi các ăng-ten đầu đọc được đặt xung quanh chu vi của các khu vực đang bị giám sát, và liên kết với thông tin ID của thẻ và vị trí.
+\paragraph{Hệ thống RFID thụ động}
+Trong các hệ thống RFID thụ động,  đầu đọc và các ăng-ten đầu đọc gửi tín hiệu radio đến thẻ. Thẻ RFID sau đó sử dụng tín hiệu được truyền để bật nguồn năng lượng,  và phản xạ năng lượng ngược trở lại đầu đọc.\\
+Các hệ thống RFID thụ động có thể hoạt động ở các nhóm  tần số thấp (LF), tần số cao (HF), hay tần số siêu cao (UHF). Khi các phạm vi của hệ thống thụ động bị giới hạn bởi năng lượng của backscatter của thẻ (tín hiệu radio phản xạ từ thẻ quay trở lại đầu đọc), thì phạm vi của chúng ít hơn 10 mét. Bởi các thẻ thụ động không yêu cầu nguồn năng lượng hay hệ thống điều khiển, mà chỉ yêu cầu một thẻ chip và ăng-ten, nên chúng thường có chi phí rẻ hơn, nhỏ hơn và dễ chế tạo hơn các thẻ chủ động.\\
+Các thẻ thụ động có thể được đóng gói theo nhiều cách khác nhau, tùy thuộc vào mỗi yêu cầu ứng dụng cụ thể. Lấy một ví dụ, chúng có thể được gắn lên mọt chất nền,  hoặc kẹp vào giữa một lớp chất dính và một nhãn giấy để tạo ra các thẻ RFID thông minh. Các thẻ thụ động cũng có thể được gắn vào đa dạng các thiết bị hoặc đóng gói để tạo ra thẻ có thể chịu được các điều kiện nhiệt độ cực đoan hay các chất hóa học gay gắt.\\
+Các giải pháp RFID thụ động hữu ích cho nhiều ứng dụng, và thường được triển khai để theo dõi hàng hóa trong chuỗi cung ứng, để kiểm kê số lượng tài sản trong nền công nghiệp bán lẻ, để xác nhận các sản phẩm như dược phẩm,.. và để gắn vào năng lực RFID trong hàng loạt các thiết bị. Hệ thống RFID thụ động thậm chí có thể được sử dụng trong các nhà kho và các trung tâm phân phối, mặc dù phạm vi của nó ngắn hơn, bằng việc đặt các đầu đọc tại các điểm nhất định để theo dõi qúa trình vận chuyển tài sản.
+\paragraph{Các hệ thống trợ Pin thụ động (Battery-Assisted Passive-BAP)}
+Các thẻ BAP RFID là một loại thẻ thụ động  kết hợp với một đặc trưng vô cùng quan trọng của thẻ chủ động. Trong khi đa số các thẻ thụ động RFID sử dụng năng lượng từ tín hiệu của đầu đọc RFID để kích hoạt con chip của thẻ và tán xạ chúng tới đầu đọc, thì  các thẻ BAP lại sử dụng ngườn năng lượng tích hợp (thường là Pin) để kích hoạt con chip, bởi vậy toàn bộ nguồn dữ liệu được lưu trữ từ đầu đọc đều có thể được sử dụng cho việc tán xạ. Không giống các hệ thống tiếp sóng,  các thẻ BAP không tự có cho chúng hệ thống điều khiển.
+\Figure{htp}{14}{Chapter2/Chapter2Figs/fig2_8}{So sánh các hệ thống chủ động, thụ động và BAP RFID}
+\label{ref{fig2_8}}

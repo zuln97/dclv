@@ -1,57 +1,29 @@
 \contentsline {chapter}{L\IeC {\`\ohorn }i c\IeC {\h a}m \IeC {\ohorn }n}{i}{Doc-Start}
 \contentsline {chapter}{T\IeC {\'o}m t\IeC {\'\abreve }t}{ii}{Doc-Start}
 \contentsline {chapter}{M\d {u}c l\d {u}c}{iii}{Doc-Start}
-\contentsline {chapter}{Danh s\'ach h\`inh v\~e}{vi}{chapter*.1}
-\contentsline {chapter}{Danh s\'ach b\h {a}ng}{vii}{chapter*.2}
-\contentsline {chapter}{Danh m\IeC {\d u}c t\IeC {\`\uhorn } vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}{viii}{chapter*.3}
-\contentsline {chapter}{\numberline {1}C\IeC {\ohorn } s\IeC {\h \ohorn } l\IeC {\'y} thuy\IeC {\'\ecircumflex }t}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}C\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID UHF}{1}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}C\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID l\IeC {\`a} g\IeC {\`\i }?}{1}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}L\IeC {\d i}ch s\IeC {\h \uhorn } ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n c\IeC {\h u}a c\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID}{2}{subsection.1.1.2}
-\contentsline {subsubsection}{\numberline {1.1.2.1}Th\IeC {\`\ohorn }i k\IeC {\`y} \IeC {\dj }\IeC {\`\acircumflex }u c\IeC {\h u}a RFID}{2}{subsubsection.1.1.2.1}
-\contentsline {subsubsection}{\numberline {1.1.2.2}Ph\IeC {\'a}t hi\IeC {\d \ecircumflex }n c\IeC {\'a}c v\IeC {\d \acircumflex }t th\IeC {\h \ecircumflex } ri\IeC {\^e}ng bi\IeC {\d \ecircumflex }t}{3}{subsubsection.1.1.2.2}
-\contentsline {subsubsection}{\numberline {1.1.2.3}RFID ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n tr\IeC {\^e}n to\IeC {\`a}n c\IeC {\`\acircumflex }u}{5}{subsubsection.1.1.2.3}
-\contentsline {subsection}{\numberline {1.1.3}Ph\IeC {\^a}n lo\IeC {\d a}i th\IeC {\h e} RF v\IeC {\`a} \IeC {\'\UHORN }ng d\IeC {\d u}ng}{6}{subsection.1.1.3}
-\contentsline {subsubsection}{\numberline {1.1.3.1}Ph\IeC {\^a}n lo\IeC {\d a}i}{6}{subsubsection.1.1.3.1}
-\contentsline {subsubsection}{\numberline {1.1.3.2}\IeC {\'\UHORN }ng d\IeC {\d u}ng}{7}{subsubsection.1.1.3.2}
-\contentsline {paragraph}{\IeC {\'\UHORN }ng d\IeC {\d u}ng \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n truy c\IeC {\d \acircumflex }p rfid}{7}{section*.5}
-\contentsline {subparagraph}{Nh\IeC {\~\uhorn }ng l\IeC {\d \ohorn }i th\IeC {\'\ecircumflex } c\IeC {\h u}a c\IeC {\'a}c \IeC {\'\uhorn }ng d\IeC {\d u}ng nh\IeC {\d \acircumflex }n d\IeC {\d a}ng UHF}{7}{section*.6}
-\contentsline {paragraph}{\IeC {\'\UHORN }ng d\IeC {\d u}ng c\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID trong l\IeC {\~\i }nh v\IeC {\d \uhorn }c thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } nh\IeC {\d \acircumflex }n d\IeC {\d a}ng}{7}{section*.7}
-\contentsline {paragraph}{\IeC {\'\UHORN }ng d\IeC {\d u}ng r\IeC {\d \ocircumflex }ng r\IeC {\~a}i c\IeC {\h u}a c\IeC {\^o}ng ngh\IeC {\d \ecircumflex } UHF}{8}{section*.8}
-\contentsline {chapter}{\numberline {2}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } v\IeC {\`a} th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{9}{chapter.2}
-\contentsline {section}{\numberline {2.1}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Y\IeC {\^e}u c\IeC {\`\acircumflex }u thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex }}{9}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}C\IeC {\'a}c linh ki\IeC {\d \ecircumflex }n \IeC {\dj }\IeC {\uhorn }\IeC {\d \ohorn }c s\IeC {\h \uhorn } d\IeC {\d u}ng}{9}{subsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.2.1}C\IeC {\h a}m bi\IeC {\'\ecircumflex }n si\IeC {\^e}u \IeC {\^a}m SRF04}{9}{subsubsection.2.1.2.1}
-\contentsline {paragraph}{M\IeC {\^o} t\IeC {\h a}}{9}{section*.9}
-\contentsline {paragraph}{Th\IeC {\^o}ng s\IeC {\'\ocircumflex } k\IeC {\~y} thu\IeC {\d \acircumflex }t}{10}{section*.10}
-\contentsline {paragraph}{C\IeC {\^o}ng d\IeC {\d u}ng}{11}{section*.11}
-\contentsline {subsubsection}{\numberline {2.1.2.2}Module GPS NEO-6M}{11}{subsubsection.2.1.2.2}
-\contentsline {paragraph}{M\IeC {\^o} t\IeC {\h a}}{11}{section*.12}
-\contentsline {paragraph}{Th\IeC {\^o}ng s\IeC {\'\ocircumflex } k\IeC {\~y} thu\IeC {\d \acircumflex }t}{11}{section*.13}
-\contentsline {subsubsection}{\numberline {2.1.2.3}Module Sim 800a}{12}{subsubsection.2.1.2.3}
-\contentsline {paragraph}{M\IeC {\^o} t\IeC {\h a}}{12}{section*.14}
-\contentsline {paragraph}{Th\IeC {\^o}ng s\IeC {\'\ocircumflex } k\IeC {\~y} thu\IeC {\d \acircumflex }t}{13}{section*.15}
-\contentsline {subsubsection}{\numberline {2.1.2.4}Arduino UNO R3}{14}{subsubsection.2.1.2.4}
-\contentsline {paragraph}{M\IeC {\^o} t\IeC {\h a}}{15}{section*.16}
-\contentsline {paragraph}{Th\IeC {\^o}ng s\IeC {\'\ocircumflex } k\IeC {\~y} thu\IeC {\d \acircumflex }t}{15}{section*.17}
-\contentsline {subsection}{\numberline {2.1.3}T\IeC {\h \ocircumflex }ng quan ki\IeC {\'\ecircumflex }n tr\IeC {\'u}c ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{15}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{15}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Thi c\IeC {\^o}ng l\IeC {\`a}m m\IeC {\d a}ch thi\IeC {\'\ecircumflex }t b\IeC {\d i}}{15}{subsection.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.1.1}Ch\IeC {\'\uhorn }c n\IeC {\u a}ng}{15}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}Ph\IeC {\`\acircumflex }n schematic}{16}{subsubsection.2.2.1.2}
-\contentsline {subsubsection}{\numberline {2.2.1.3}Ph\IeC {\`\acircumflex }n m\IeC {\d a}ch in}{16}{subsubsection.2.2.1.3}
-\contentsline {chapter}{\numberline {3}K\IeC {\'\ecircumflex }t qu\IeC {\h a} v\IeC {\d \acircumflex }n h\IeC {\`a}nh th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex }}{17}{chapter.3}
-\contentsline {chapter}{\numberline {4}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n v\IeC {\`a} h\IeC {\uhorn }\IeC {\'\ohorn }ng ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n}{18}{chapter.4}
-\contentsline {section}{\numberline {4.1}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{18}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}\IeC {\UHORN }u \IeC {\dj }i\IeC {\h \ecircumflex }m}{18}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Khuy\IeC {\'\ecircumflex }t \IeC {\dj }i\IeC {\h \ecircumflex }m}{18}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}H\IeC {\uhorn }\IeC {\'\ohorn }ng ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n}{18}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}H\IeC {\uhorn }\IeC {\'\ohorn }ng ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n c\IeC {\h u}a \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}{18}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}M\IeC {\d \ocircumflex }t gi\IeC {\h a}i ph\IeC {\'a}p m\IeC {\'\ohorn }i cho \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}{18}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}C\IeC {\ohorn } s\IeC {\h \ohorn } l\IeC {\'y} thuy\IeC {\'\ecircumflex }t}{18}{subsubsection.4.2.2.1}
-\contentsline {subsection}{\numberline {4.2.3}C\IeC {\'a}ch ho\IeC {\d a}t \IeC {\dj }\IeC {\d \ocircumflex }ng}{18}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}V\IeC {\d \acircumflex }n h\IeC {\`a}nh th\IeC {\h \uhorn } nghi\IeC {\d \ecircumflex }m}{19}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}K\IeC {\'\ecircumflex }t qu\IeC {\h a}}{19}{subsubsection.4.2.4.1}
-\contentsline {subsubsection}{\numberline {4.2.4.2}K\IeC {\'\ecircumflex }t lu\IeC {\d \acircumflex }n}{19}{subsubsection.4.2.4.2}
-\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{19}{subsubsection.4.2.4.2}
+\contentsline {chapter}{Danh s\'ach h\`inh v\~e}{v}{chapter*.1}
+\contentsline {chapter}{Danh s\'ach b\h {a}ng}{vi}{chapter*.2}
+\contentsline {chapter}{Danh m\IeC {\d u}c t\IeC {\`\uhorn } vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}{vii}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u t\IeC {\h \ocircumflex }ng quan \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\IeC {\'Y} t\IeC {\uhorn }\IeC {\h \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u, ph\IeC {\d a}m vi nghi\IeC {\^e}n c\IeC {\'\uhorn }u v\IeC {\`a} \IeC {\dj }\IeC {\'\ocircumflex }i t\IeC {\uhorn }\IeC {\d \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}\IeC {\'Y} t\IeC {\uhorn }\IeC {\h \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Ph\IeC {\d a}m vi nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{2}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}\IeC {\DJ }\IeC {\'\ocircumflex }i t\IeC {\uhorn }\IeC {\d \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{2}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}T\IeC {\h \ocircumflex }ng quan v\IeC {\`\ecircumflex } ki\IeC {\'\ecircumflex }n tr\IeC {\'u}c c\IeC {\h u}a h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng}{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}C\IeC {\ohorn } s\IeC {\h \ohorn } l\IeC {\'y} thuy\IeC {\'\ecircumflex }t}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}C\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID UHF}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}C\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID l\IeC {\`a} g\IeC {\`\i }?}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}L\IeC {\d i}ch s\IeC {\h \uhorn } ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n c\IeC {\h u}a c\IeC {\^o}ng ngh\IeC {\d \ecircumflex } RFID}{5}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Th\IeC {\`\ohorn }i k\IeC {\`y} \IeC {\dj }\IeC {\`\acircumflex }u c\IeC {\h u}a RFID}{5}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Ph\IeC {\'a}t hi\IeC {\d \ecircumflex }n c\IeC {\'a}c v\IeC {\d \acircumflex }t th\IeC {\h \ecircumflex } ri\IeC {\^e}ng bi\IeC {\d \ecircumflex }t}{6}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}RFID ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n tr\IeC {\^e}n to\IeC {\`a}n c\IeC {\`\acircumflex }u}{8}{subsubsection.2.1.2.3}
+\contentsline {subsection}{\numberline {2.1.3}Ph\IeC {\^a}n lo\IeC {\d a}i h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng RFID}{9}{subsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3.1}C\IeC {\'a}c d\IeC {\h a}i t\IeC {\`\acircumflex }n s\IeC {\'\ocircumflex } RFID}{9}{subsubsection.2.1.3.1}
+\contentsline {paragraph}{LF RFID}{9}{section*.5}
+\contentsline {paragraph}{HF RFID}{10}{section*.6}
+\contentsline {paragraph}{UHF RFID}{10}{section*.7}
+\contentsline {subsubsection}{\numberline {2.1.3.2}C\IeC {\'a}c h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng ch\IeC {\h u} \IeC {\dj }\IeC {\d \ocircumflex }ng, th\IeC {\d u} \IeC {\dj }\IeC {\d \ocircumflex }ng v\IeC {\`a} BAP RFID}{11}{subsubsection.2.1.3.2}
+\contentsline {paragraph}{C\IeC {\'a}c h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng RFID ch\IeC {\h u} \IeC {\dj }\IeC {\d \ocircumflex }ng}{11}{section*.8}
+\contentsline {paragraph}{H\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng RFID th\IeC {\d u} \IeC {\dj }\IeC {\d \ocircumflex }ng}{12}{section*.9}
+\contentsline {paragraph}{C\IeC {\'a}c h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng tr\IeC {\d \ohorn } Pin th\IeC {\d u} \IeC {\dj }\IeC {\d \ocircumflex }ng (Battery-Assisted Passive-BAP)}{12}{section*.10}
+\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{12}{figure.2.8}

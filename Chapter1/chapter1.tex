@@ -1,86 +1,32 @@
 \headerandfooterconfig
-\graphicspath{Chapter2/Chapter2Figs/}
-\chapter{Cơ sở lý thuyết}
+\graphicspath{Chapter1/Chapter1Figs/}
+\chapter{Giới thiệu tổng quan đề tài}
 
-\section{Công nghệ RFID UHF}
-Công nghệ RFID viết tắt bởi Radio Frequency Identification là một trong những công nghệ nhận dạng dữ liệu tự động tiên tiến nhất hiện nay có tính khả thi cao và áp dụng trong thực tế rất hiệu quả. RFID đang hiện diện trong rất nhiều lĩnh vực tự động hóa, rất nhiều ứng dụng quản lý và các mô hình tổ chức khác nhau nhằm đem lại những giải pháp nhận dạng dữ liệu tự động tối ưu và hiệu quả hơn.
-\subsection{Công nghệ RFID là gì?}
-Công nghệ RFID (Radio Frequency Identification) cho phép một thiết bị đọc thông tin chứa trong chip không tiếp xúc trực tiếp ở khoảng cách xa, không thực hiện bất kỳ giao tiếp vật lý nào hoặc giữa hai vật không nhìn thấy. Công nghệ này cho ta phương pháp truyền, nhận dữ liệu từ một điểm đến điểm khác. \\
-Kỹ thuật RFID sử dụng truyền thông không dây trong dải tần sóng vô tuyến để truyền dữ liệu từ các tag (thẻ) đến các reader (bộ đọc). Tag có thể được đính kèm hoặc gắn vào đối tượng được nhận dạng chẳng hạn sản phẩm, hộp hoặc giá kệ (pallet). Reader scan dữ liệu của tag và gửi thông tin đến cơ sở dữ liệu có lưu trữ dữ liệu của tag. Chẳng hạn, các tag có thể được đặt trên kính chắn gió xe hơi để hệ thống thu phí đường có thể nhanh chóng nhận dạng và thu tiền trên các tuyến đường.\\
-Dạng đơn giản nhất được sử dụng hiện nay là hệ thống RFID bị động làm việc như sau: reader truyền một tín hiệu tần số vô tuyến điện từ qua anten của nó đến một con chip. Reader nhận thông tin trở lại từ chip và gửi nó đến máy tính điều khiển đầu đọc và xử lý thông tin lấy được từ chip. Các chip không tiếp xúc không tích điện, chúng hoạt động bằng cách sử dụng năng lượng nhận từ tín hiệu được gửi bởi reader.
-\subsection{Lịch sử phát triển của công nghệ RFID}
-Lịch sử RFID đánh dấu từ những năm 1930 nhưng công nghệ RFID có nguồn gốc từ năm 1897 khi Guglielmo Marconi phát ra radio. RFID áp dụng các nguyên tắc vật lý cơ bản như truyền phát rad ng điện từ truyền và nhận dạng dữ liệu khác nhau.\\
-Để hiểu rõ hơn về sự giống nhau này, hình dung một trạm radio phát ra âm thanh hoặc âm nhạc qua một bộ phát. Dữ liệu này cần phải mã hóa sang dạng sóng radio có tần số xác định. Tại những vị trí khác nhau, người nghe có một máy radio để giải mã dữ liệu từ trạm phát (âm thanh hoặc âm nhạc). Mọi người đều nhận biết được sự khác nhau về chất lượng sóng radio khi ngồi trên xe hơi. Khi di chuyển càng xa bộ phát tín hiệu thu được càng yếu. Khoảng cách theo các hướng hoặc các vùng mà sóng radio phát ra có thể bao phủ được xác định bởi điều kiện môi trường, kích thước và năng lượng của anten tại mỗi đường giao tiếp. Sử dụng thuật ngữ RFID, có chức năng như một trạm truyền gọi là một transponder (tag) được tạo thành từ 2 thuật ngữ transmitter và responder; vật có chức năng như radio gọi là reader (bộ đọc) hay interrogator. Anten xác định phạm vi đọc (range).\\
-Ba thành phần tag, reader và anten là những khối chính của một hệ thống RFID. Khi thay đổi về năng lượng, kích thước, thiết kế anten, tần số hoạt động, số lượng dữ liệu và phần mềm để quản lý và xuất dữ liệu tạo ra rất nhiều ứng dụng. Công nghệ RFID có thể giải quyết rất nhiều bài toán kinh doanh thực tế.
-\subsubsection{Thời kỳ đầu của RFID}
-Các máy thu GPS ngày nay cực kì chính xác, nhờ vào thiết kế nhiều kênh hoạt động song song của chúng. Các máy thu 12 kênh song song (của Garmin) nhanh chóng khóa vào các quả vệ tinh khi mới bật lên và chúng duy trì kết nối bền vững, thậm chí trong tán lá rậm rạp hoặc thành phố với các toà nhà cao tầng. Trạng thái của khí quyển và các nguồn gây sai số khác có thể ảnh hưởng tới độ chính xác của máy thu GPS. Các máy thu GPS có độ chính xác trung bình trong vòng 15 mét.\\
-Các máy thu mới hơn với khả năng WAAS (Wide Area Augmentation System) có thể tăng độ chính xác trung bình tới dưới 3 mét. Không cần thêm thiết bị hay mất phí để có được lợi điểm của WAAS. Người dùng cũng có thể có độ chính xác tốt hơn với GPS vi sai (Differential GPS, DGPS) sửa lỗi các tín hiệu GPS để có độ chính xác trong khoảng 3 đến 5 mét. Cục Phòng vệ Bờ biển Mỹ vận hành dịch vụ sửa lỗi này. Hệ thống bao gồm một mạng các đài thu tín hiệu GPS và phát tín hiệu đã sửa lỗi bằng các máy phát hiệu. Để thu được tín hiệu đã sửa lỗi, người dùng phải có máy thu tín hiệu vi sai bao gồm cả ăn-ten để dùng với máy thu GPS của họ.
-\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_1}{Thiết bị IFF (bên trái), thiết bị RFID (tích cực) hiện đại ngày nay}
-\label{ref{fig1_1}}
-\\
-Những công nghệ mới những sản phẩm này gọn hơn và giá rẻ hơn như: công nghệ tích hợp trong IC, chip nhớ lập trình được, vi xử lý, những phần mềm ứng dụng hiện đại ngày nay và những ngôn ngữ lập trình làm cho công nghệ RFID đang có xu hướng chuyển sang lĩnh vực thương mại rộng lớn.\\
-Cuối thập kỉ 60 đầu thập kỉ 70 nhiều công ty như Sensormatic and Checkpoint Systems giới thiệu những sản phẩm mới ít phức tạp hơn và ứng dụng rộng rãi hơn. Những công ty này bắt đầu phát triển thiết bị giám sát điện tử (electronic article surveillance EAS) để bảo vệ và kiểm kê sản phẩm như quần áo trong cửa hàng, sách trong thư viện. Hệ thống RFID thương mại ban đần này chỉ là hệ thống RFID tag một bit (1-bit tag) giá rẻ để xây dựng, thực hiện và bảo hành. Tag không đòi hỏi nguồn pin (loại thụ động) dễ dàng đặt vào sản phẩm và thiết kế để khởi động chuông cảnh báo khi tag đến gần bộ đọc, thường đặt tại lối ra vào, phát hiện sự có mặt của tag.	
-\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_2}{Các mốc thời gian quan trọng trong giai đoạn đầu của RFID}
+\section{Ý tưởng nghiên cứu, phạm vi nghiên cứu và đối tượng nghiên cứu}
+\subsection{Ý tưởng nghiên cứu}
+Công nghệ RFID - Radio Frequency Identification (Nhận dạng tần số sóng vô tuyến) đang trở nên phổ biến với sự đa dạng các ứng dụng trong kỉ nguyên công nghệ 4.0. Với kiến trúc đơn giản, hệ thống RFID được sử dụng trong nhiều lĩnh vực: kiểm soát ra vào, nhận diện khách hàng, động vật, đồ vật,...Nhất là trong hệ thống quản lý hàng hóa, kho bãi, chuổi cung ứng,...
+\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_2}{Kiến trúc cơ bản của một hệ thống RFID}
 \label{ref{fig1_2}}
+\\Trong đó, công nghệ UHF RFID có thể đọc đồng thời các đặc tính của các thẻ điện tử trường gần và trường xa. Ngoài loại thẻ kiểm soát truy cập thẻ ID truyền thống (kích thước thẻ tín dụng), công nghệ UHF RFID cung cấp nhiều loại thẻ điện tử để lựa chọn, có thể được cài đặt trong bất kỳ tài liệu nào và đang trong tình trạng tốt để theo dõi các mặt hàng, Container và phương tiện để cải thiện độ chính xác của hậu cần và ứng dụng theo dõi. Hiện nay, hầu hết các sản phẩm RFID UHF trên thị trường đều tập trung vào các ứng dụng như chuỗi cung ứng và quản lý hậu cần.
 
-\subsubsection{Phát hiện các vật thể riêng biệt}
-Suốt thập kỷ 70, công nghiệp sản xuất, vận chuyển bắt đầu nghiên cứu và phát triển những dự án để tìm cách dùng IC dựa trên hệ thống RFID. Có nhiều ứng dụng trong công nghiệp tự động, xác định thú vật, theo dõi lưu thông. Trong giai đoạn này tag có IC tiếp tục phát triển và đặc tính: bộ nhớ ghi được, tốc độ đọc nhanh hơn và khoảng cách đọc xa hơn.\\
-Đầu thập niên 80 công nghệ phức tạp RFID được áp dụng trong nhiều ứng dụng: đặt tại đường ray ở Mỹ, đánh dấu thú vật trên nông trại ở châu Âu. Hệ thống RFID còn dùng trong nghiên cứu động vật hoang dã đánh dấu các loài nguy hiểm. Vào thập niên 90, hệ thống thu phí điện tử trở nên phổ biến ở Thái Bình Dương: Ý, Tây Ban Nha, Bồ Đào Nha… và ở Mỹ: Dallas, New York và New Jersey. Những hệ thống này cung cấp những dạng truy cập điều khiển phức tạp hơn bởi vì nó còn bao gồm cả máy trả tiền.\\
-Đầu năm 1990, nhiều hệ thống thu phí ở Bắc Mỹ tham gia một lực lượng mang tên EZPass Interagency Group (IAG) cùng nhau phát triển những vùng có hệ thống thu phí điện tử tương thích với nhau. Đây là cột mốc quan trọng để tạo ra những ứng dụng tiêu chuẩn. Hầu hết những tiêu chuẩn tập trung các đặc tính kỹ thuật như tần số hoạt động và giao thức giao tiếp phần cứng. \\
-E-Zpass còn là một tag đơn tương ứng với một tài khoản trên một phương tiện. Tag của xe sẽ truy cập vào đường cao tốc của hệ thống thu phí mà không phải dừng lại. E-Z Pass giúp lưu thông dễ dàng hơn và giảm lực lượng lao động để kiểm soát vé và thu tiền.\\
-Cùng vào thời điểm này, khóa (card RFID) sử dụng phổ biến thay thế cho các thiết bị máy móc điều khiển truy nhập truyền thống như khóa kim loại và khóa số. Những sản phẩm này còn được gọi là thẻ thông minh không tiếp xúc cung cấp thông tin về người dùng, trong khi giá thành thấp để sản xuất và lập trình. Hình 1.3 so sánh các phương pháp điều khiển truy cập thông thường và điều khiển truy cập RFID:
-\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_3}{Các phương pháp điều khiển truy cập thông thường và điều khiển truy cập RFID}
-\label{ref{fig1_3}}
-\\
-Điều khiển truy nhập RFID tiếp tục có những bước tiến mới. Các nhà sản xuất xe hơi đã dùng tag RFID tr	ong gần một thập kỉ qua cho hệ thống đánh lửa xe hơi và nó đã làm giảm khả năng trộm cắp xe.
-\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_4}{Những mốc thời gian quan trọng từ năm 1960 đến 1990}
-\label{ref{fig1_4}}
+\subsection{Phạm vi nghiên cứu}
+Vì sự giới hạn của thời gian và kiến thức, trong đề tài này, chúng ta sẽ nghiên cứu và ứng dụng một hệ thống UHF RFID đơn giản với đầy đủ kiến trúc của một hệ thống RFID thường thấy.
 
-\subsubsection{RFID phát triển trên toàn cầu}
-Cuối thế kỉ 20, số lượng các ứng dụng RFID hiện đại bắt đầu mở rộng theo hàm mũ trên phạm vi toàn cầu. Dưới đây là một vài bước tiến quan trọng góp phần đẩy mạnh sự phát triển này. Texas Instrument đi tiên phong ở Mỹ  năm 1991, công ty đã tạo ra một hệ thống xác nhận và đăng ký Texas Instrument (TIRIS). Hệ thống TI-RFID (Texas Instruments Radio Frequency Identification System) n tản cho phát triển và thực hiện những lớp mới của ứng dụng RFID. Châu Âu đã bắt đầu công nghệ RFID từ rất sớm.\\
-Ngay cả trước khi Texas Instrument giới thiệu sản phẩm RFID, vào năm 1970 EM Microelectronic-Marin một công ty của The Swatch Group Ltd đã thiết kế mạch tích hợp năng lượng thấp cho những đồng hồ của Thụy Sỹ. Năm 1982 Mikron Integrated Microelectronics phát minh ra công nghệ ASIC và năm 1987 phát triển công nghệ đặc biệt liên quan đến việc xác định thẻ thông minh. Ngày nay EM Microelectronic và Philips Semiconductors là hai nhà sản xuất lớn ở châu Âu về lĩnh vực RFID.\\
-Cách đây một vài năm các ứng dụng chủ yếu của thẻ RFID thụ động, như minh họa trong bảng 2.2 mới được ứng dụng ở tần số thấp (LF) và tần số cao (HF) của phổ RF. Cả LF và HF đều giới hạn khoảng cách và tốc độ truyền dữ liệu. Cho những mục đích thực tế khoảng cách của những ứng dụng này đo bằng inch. Việc giới hạn tốc độ ngăn cản việc đọc của ứng dụng khi hàng trăm thậm chí hàng ngàn tag cùng có mặt trong trường của bộ đọc tại một thời điểm. Cuối thập niên 90 tag thụ động cho tần số siêu cao (UHF) làm cho khoảng cách xa hơn, tốc độ cao hơn, giá cả rẻ hơn, tag thụ động này đã vượt qua những giới hạn của nó; Với những thuộc tính thêm vào hệ thống RFID dựa trên UHF được lựa chọn cho những ứng dụng dây chuyền cung cấp như quản lý nhà kho, kiểm kê sản phẩm.
-\begin{table}
-	\centering
-	\begin{tabular}{|c|c|}
-	\hline 
-	LF & HF \\ 
-	\hline 
-	Điều khiển truy nhập & Xác định động vật \\ 
-	\hline 
-	Xác định hàng hóa trên máy bay & Thanh toán tiền \\ 
-	\hline 
-	Chống trộm xe hơi & Giám sát điện tử \\ 
-	\hline 
-	Đánh dấu tài liệu & Định thời cho thế thao \\ 
-	\hline 
-	\end{tabular} 
-	\caption{Các ứng dụng tiêu biểu dùng công nghệ RFID LF và HF}
-	\label{bang1}
-\end{table}
-\\
-Cuối những năm 1990 đầu năm 2000, các nhà phân phối như Wal-Mart, Target, Metro Group và các cơ quan chính phủ như U.S. Department of Defense (DoD) bắt đầu phát triển và yêu cầu việc sử dụng RFID bởi nhà cung cấp. Vào thời điểm này EPCglobal được thành lập, EPCglobal đã hỗ trợ hệ thống mã sản phẩm điện tử (Electronic Product Code Network EPC) hệ thống này đã trở thành tiêu chuẩn cho xác nhận sản phẩm tự động.
-\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_5}{Những mốc thời gian quan trọng từ năm 1990 đến nay}
-\label{ref{fig1_5}}
+\begin{description}
+	\item[Phần cứng] Các kiến thức về hệ thống UHF RFID, antenna, tag.
+	\item[Phần mềm] Các kiến thức về đọc và xử lý dữ liệu RFID, xây dựng hệ thống Web Sever, lập trình Web, làm việc với cơ sở dữ liệu MongoDB.
+\end{description}
 
-\subsection{Phân loại thẻ RF và Ứng dụng}
-\subsubsection{Phân loại}
-Theo tần số sóng mang, nó được chia thành thẻ tần số vô tuyến tần số thấp, thẻ tần số vô tuyến trung tần tần số và thẻ tần số vô tuyến tần số cao. Thẻ RF tần số thấp chủ yếu có hai loại 125 kHz và 135 kHz, tần số trung gian tần số thẻ RF chủ yếu là 13,56 MHz và thẻ RF tần số cao chủ yếu là 433 MHz, 915 MHz, 2,45 GHz, 5,8 GHz và như. Hệ thống tần số thấp chủ yếu được sử dụng trong các ứng dụng tầm ngắn, chi phí thấp như kiểm soát truy cập nhiều nhất, thẻ khuôn viên, quy định động vật và theo dõi hàng hóa. Hệ thống IF được sử dụng để kiểm soát truy cập và các hệ thống ứng dụng cần truyền một lượng lớn dữ liệu; hệ thống tần số cao được sử dụng trong các ứng dụng có khoảng cách đọc / ghi dài và tốc độ đọc / ghi cao, và hướng chùm tia ăng-ten hẹp và giá cao. Ứng dụng trong các hệ thống như phí đường cao tốc.\\
-So với các công nghệ 125KHz và 13.56MHz, 900MHz UHF RFID là một lĩnh vực chuyên nghiệp với trình độ kỹ thuật cao hơn và phạm vi ứng dụng rộng hơn. Cho dù sử dụng hệ thống RFID tần số thấp hay tần số cao, phạm vi đọc chỉ có thể tiếp cận phạm vi trường gần, trong khi công nghệ UHF RFID có thể đáp ứng nhu cầu của cả hai lĩnh vực gần và xa. Đối với cùng một yêu cầu về khoảng cách đọc, ăng-ten UHF RFID có kích thước nhỏ hơn nhiều so với các ăng-ten tần số thấp khác và dễ vận hành hơn nhiều. Ngoài khoảng cách đọc dài hơn, UHF RFID còn có lợi thế về tốc độ đọc nhanh. Ví dụ, giao thức ISO 18000-6C (EPC Class 1, Gen 2) có tốc độ đọc 1.700 đọc / giây. Giao thức UHF RFID cũng cung cấp mã khóa 32 bit và chế độ ẩn để tăng cường quyền riêng tư của nó, đồng thời cũng cung cấp cơ chế xác thực và mã hóa để đảm bảo tính bảo mật của nó.
-\subsubsection{Ứng dụng}
-\paragraph{Ứng dụng điều khiển truy cập rfid}
-Với sự phát triển nhanh chóng của công nghệ RFID siêu cao tần, một số hệ thống kiểm soát truy cập cảm ứng đã áp dụng công nghệ UHF UHF 900MH. Không giống như các hệ thống tần số thấp và tần số cao, phương pháp ghép nối cảm ứng từ được sử dụng, và hệ thống RFID tần số cực cao sử dụng công nghệ tán xạ điện từ. UHF RFID có khoảng cách truyền và nhận từ xa (5 đến 7 mét), loại bỏ nhu cầu về năng lượng và pin hoạt động.\\
-Trong Thẻ RFID điện tử RFID tần số thấp, tần số thấp, tần số cao đã được chia sẻ chi tiết; Công nghệ nhận dạng tự động UHF có thể đọc nhiều thẻ cùng một lúc, khả năng thâm nhập mạnh mẽ và có thể đọc và ghi nhiều lần. Các lĩnh vực ứng dụng của nó bao gồm hậu cần, quản lý giao thông, thương mại điện tử và các lĩnh vực khác, và nhập vào ứng dụng công nghệ dài hạn.
-\subparagraph{Những lợi thế của các ứng dụng nhận dạng UHF}
-UHF RFID có thể đọc đồng thời các đặc tính của các thẻ điện tử trường gần và trường. Do sự đa dạng của các ứng dụng công nghệ RFID RFID, trong nhiều môi trường hoạt động, một độc giả có thể đáp ứng hiệu quả hơn nhu cầu đọc. Ví dụ, trong bãi đậu xe lớn, xe tải lớn và nhỏ, xe tải, nhân viên và xe khách, vv, hệ thống kiểm soát truy cập an ninh phải xem xét nhu cầu và hạn chế của tất cả các phương tiện.\\
-UHF RFID có lợi thế về đọc trường xa, có thể đáp ứng các yêu cầu đọc của các vị trí cao và thấp khác nhau. Ví dụ, đối với các ứng dụng có phạm vi tuần tra lớn (chẳng hạn như khuôn viên trường đại học hoặc bệnh viện lớn), UHF RFID cũng có thể được đọc. Thiết bị được lắp đặt trên xe tuần tra và nhân viên tuần tra ngồi trong xe để đọc và xác minh trực tiếp dữ liệu thẻ điện tử.\\
-Công nghệ UHF nhận ra các mục tiêu kiểm soát truy cập của nhân viên và các phương tiện vào và ra khỏi thẻ. Khi một người vào hoặc ra khỏi khu vực kiểm soát, họ chỉ cần mang theo thẻ gần và thẻ truy cập trong nhà và ngoài trời. Không chỉ có thể tránh chi phí sản xuất thẻ cụ thể bổ sung cho xe, mà còn có thể tích hợp hoạt động quản lý thẻ truy cập xe cộ và nhân viên. Công nghệ RFID UHF là lý tưởng cho các hệ thống kiểm soát truy cập trong cộng đồng, tòa nhà văn phòng, khu công nghiệp, bệnh viện hoặc cơ sở.
-\paragraph{Ứng dụng công nghệ RFID trong lĩnh vực thiết kế nhận dạng}
-Ngoài độc giả cố định, hệ thống kiểm soát truy cập bảo mật RFID RFID thường được trang bị đầu đọc RFID cầm tay hoặc di động cho các ứng dụng quản lý tài sản như khuôn viên hoặc nhà máy tuần tra. Các lợi thế gần trường và xa của công nghệ UHF RFID cho phép nhân viên tuần tra giữ và đọc dữ liệu điện tử trực tiếp từ phía trước của xe mà không cần phải gần kính xe.\\
-Trong quá trình phát triển ứng dụng, với sự ra đời của nền tảng kiểm soát truy cập mới của nhà lãnh đạo nhận dạng bảo mật toàn cầu “Otate IOT”, công ty đã đưa ra một cơ sở hạ tầng kiểm soát truy cập có thể đáp ứng sự phát triển tương lai của khách hàng. cơ sở hạ tầng có thể đối phó hiệu quả với tương lai. Sự thay đổi. Đồng thời, nền tảng này tăng cường bảo mật trong khi hỗ trợ các công nghệ mới thú vị như điện thoại thông minh NFC, cho phép các ứng dụng như kiểm soát truy cập dựa trên thiết bị di động, đăng nhập PC, sinh trắc học, phương tiện công cộng và chương trình khách hàng thân thiết.
-\paragraph{Ứng dụng rộng rãi của công nghệ UHF}
-Ngoài loại thẻ kiểm soát truy cập thẻ ID truyền thống (kích thước thẻ tín dụng), công nghệ UHF RFID cung cấp nhiều loại thẻ điện tử để lựa chọn, có thể được cài đặt trong bất kỳ tài liệu nào và đang trong tình trạng tốt để theo dõi các mặt hàng, Container và phương tiện để cải thiện độ chính xác của hậu cần và ứng dụng theo dõi. Hiện nay, hầu hết các sản phẩm RFID UHF trên thị trường đều tập trung vào các ứng dụng như chuỗi cung ứng và quản lý hậu cần.\\
-UHF RFID là khó khăn hơn trong công nghệ RFID tần số thấp và tần số cao trong các ứng dụng kim loại hoặc ướt. Tuy nhiên, nhiều ứng dụng hệ thống kiểm soát truy cập không thể tránh được môi trường làm việc kim loại hoặc ẩm ướt, chẳng hạn như kiểm soát truy cập bằng đá sa thạch, quản lý xe lăn giường bệnh viện, quản lý truy cập xe tải của công ty vận tải.\\
-Thẻ tag Metal Tag được thiết kế đặc biệt cho các ứng dụng kiểm soát truy cập bảo mật UHF RFID trong môi trường kim loại và ẩm ướt. Nhãn điện tử loại kim loại thường được gắn vào vỏ kim loại của thân xe hoặc biển số xe, và khoảng cách đọc của nhãn điện tử loại kim loại có thể lên đến 6 mét. Ngoài khả năng chống kim loại, các nhãn điện tử loại kim loại có thể hoạt động bình thường trong môi trường ẩm ướt (như mưa, rửa xe, vv).
-
-
+\subsection{Đối tượng nghiên cứu}
+\begin{itemize}
+	\item Đọc thẻ tag.
+	\item Xử lý dữ liệu trên tag.
+	\item Cơ sở dữ liệu MongoDB.
+	\item Web Service với NodeJS.
+	\item Kết nối Web Server với CSDL MongoDB.
+	\item Lập trình UI/UX Web.
+\end{itemize}
+\section{Tổng quan về kiến trúc của hệ thống}
+\Figure{htp}{12}{Chapter1/Chapter1Figs/fig1_1}{Tổng quan về kiến trúc của hệ thống}
+\label{ref{fig1_1}}
+Như có thể thấy trong hình 1.2, các dữ liệu dùng để nhận dạng từ các tag riêng biệt sau khi được đọc bằng Reader RFID sẽ được xử lý và lưu vào hệ cơ sở dữ liệu MongoDB. Sau đó được kết nối với Web Sever NodeJs và hiển thị trên giao diện web cho người dùng quan sát.

@@ -1,11 +1,8 @@
 \begin{thenomenclature} 
 
  \nomgroup{A}
-  \item {CSDL} Cơ sở dữ liệu
-  \item {GPS} Global Positioning System
-  \item {GPRS} General Packet Radio Service
-  \item {GSM} Global System for Mobile Communications
-  \item {IOT} Internet of Things
-  \item {MQTT} Message Queue Telemetry Transport
-  \item {Qos} Quality of Service
+  	\item {RFID} Radio Frequency IDentification
+ 	\item {LF} Low Frequency
+ 	\item {HF} High Frequency
+ 	\item {UHF} Ultra-High Frequency	
 \end{thenomenclature}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.23)  25 DEC 2018 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.23)  26 DEC 2018 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -122,6 +122,31 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count103
+\lst@gtempboxa=\box28
+\lst@token=\toks21
+\lst@length=\count104
+\lst@currlwidth=\dimen120
+\lst@column=\count105
+\lst@pos=\count106
+\lst@lostspace=\dimen121
+\lst@width=\dimen122
+\lst@newlines=\count107
+\lst@lineno=\count108
+\lst@maxwidth=\dimen123
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count109
+\lst@skipnumbers=\count110
+\lst@framebox=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
 \@input{thesis.preamble.aux}
 \openout2 = `thesis.preamble.aux'.
 
@@ -143,13 +168,13 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen120
-\Gin@req@width=\dimen121
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks21
-\verbatim@line=\toks22
+\every@verbatim=\toks22
+\verbatim@line=\toks23
 \verbatim@in@stream=\read1
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
@@ -163,8 +188,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen122
-\nom@tempdim=\dimen123
+\nomlabelwidth=\dimen126
+\nom@tempdim=\dimen127
 \nomitemsep=\skip46
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -185,26 +210,26 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen124
-\extrarowheight=\dimen125
-\NC@list=\toks23
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks24
 \extratabsurround=\skip56
 \backup@length=\skip57
 )
-\TX@col@width=\dimen126
-\TX@old@table=\dimen127
-\TX@old@col=\dimen128
-\TX@target=\dimen129
-\TX@delta=\dimen130
-\TX@cols=\count103
-\TX@ftn=\toks24
+\TX@col@width=\dimen130
+\TX@old@table=\dimen131
+\TX@old@col=\dimen132
+\TX@target=\dimen133
+\TX@delta=\dimen134
+\TX@cols=\count111
+\TX@ftn=\toks25
 )
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip58
 \bibsep=\skip59
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
+\c@NAT@ctr=\count112
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
@@ -266,14 +291,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen131
-\Hy@linkcounter=\count105
-\Hy@pagecounter=\count106
+\@linkdim=\dimen135
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count107
+\Hy@SavedSpaceFactor=\count115
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -294,17 +319,17 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count108
+\c@Hy@tempcnt=\count116
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen132
-\Fld@menulength=\count109
-\Field@Width=\dimen133
-\Fld@charsize=\dimen134
+\XeTeXLinkMargin=\dimen136
+\Fld@menulength=\count117
+\Field@Width=\dimen137
+\Fld@charsize=\dimen138
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -314,16 +339,16 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count110
-\c@Item=\count111
-\c@Hfootnote=\count112
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count113
-\c@bookmark@seq@number=\count114
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
 \Hy@SectionHShift=\skip60
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
@@ -331,12 +356,12 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count115
+\BKM@id=\count123
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -831,49 +856,26 @@ File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 )) (./icthesis.sty
 Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count116
-\lst@gtempboxa=\box28
-\lst@token=\toks27
-\lst@length=\count117
-\lst@currlwidth=\dimen135
-\lst@column=\count118
-\lst@pos=\count119
-\lst@lostspace=\dimen136
-\lst@width=\dimen137
-\lst@newlines=\count120
-\lst@lineno=\count121
-\lst@maxwidth=\dimen138
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count122
-\lst@skipnumbers=\count123
-\lst@framebox=\box29
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2015/06/04 1.6 listings configuration
-))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (./thesis.aux)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -908,18 +910,19 @@ LaTeX Font Info:    ... okay on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count124
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
+\scratchcounter=\count125
 \scratchdimen=\dimen139
 \scratchbox=\box30
-\nofMPsegments=\count125
-\nofMParguments=\count126
+\nofMPsegments=\count126
+\nofMParguments=\count127
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count127
+\MPscratchCnt=\count128
 \MPscratchDim=\dimen140
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -939,8 +942,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box31
-Package backref Info: ** backref set up for natbib ** on input line 20.
-Package hyperref Info: Link coloring ON on input line 20.
+Package backref Info: ** backref set up for natbib ** on input line 19.
+Package hyperref Info: Link coloring ON on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -948,19 +951,18 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count130
+\c@section@level=\count131
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
-\c@lstlisting=\count131
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 <ThesisFigs/HCMUTLogo.png, id=4, 240.9pt x 240.9pt>
 File: ThesisFigs/HCMUTLogo.png Graphic file (type png)
 <use ThesisFigs/HCMUTLogo.png>
-Package pdftex.def Info: ThesisFigs/HCMUTLogo.png  used on input line 22.
+Package pdftex.def Info: ThesisFigs/HCMUTLogo.png  used on input line 21.
 (pdftex.def)             Requested size: 192.72025pt x 192.72025pt.
 
-Overfull \vbox (69.85976pt too high) detected at line 22
+Overfull \vbox (69.85976pt too high) detected at line 21
  []
 
 [0
@@ -1012,22 +1014,22 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 
 Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 31.
+(hyperref)                removing `\textdotbelow' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 31.
+(hyperref)                removing `\textdotbelow' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 31.
+(hyperref)                removing `\textdotbelow' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 31.
+(hyperref)                removing `\textdotbelow' on input line 30.
 
 (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
@@ -1046,77 +1048,332 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [3
 
 
-] [4])
+])
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- [5]
+ [4]
 
 Package hyperref Warning: Composite letter `\texttilde+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\texttilde' on input line 31.
+(hyperref)                removing `\texttilde' on input line 30.
 
 (./thesis.lof)
 \tf@lof=\write4
 \openout4 = `thesis.lof'.
+
+ [5
+
+
+]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 30.
+
+(./thesis.lot)
+\tf@lot=\write5
+\openout5 = `thesis.lot'.
 
  [6
 
 
 ]
 
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 31.
-
-(./thesis.lot)
-\tf@lot=\write5
-\openout5 = `thesis.lot'.
-
- [7
-
-
-]
-
 Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 31.
+(hyperref)                removing `\textdotbelow' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textasciigrave+\uhorn'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 31.
+(hyperref)                removing `\textasciigrave' on input line 30.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 31.
+(hyperref)                removing `\uhorn' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 31.
+(hyperref)                removing `\textacute' on input line 30.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 31.
+(hyperref)                removing `\ecircumflex' on input line 30.
 
 
 Package hyperref Warning: Composite letter `\textacute+\abreve'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 31.
+(hyperref)                removing `\textacute' on input line 30.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\abreve' on input line 31.
+(hyperref)                removing `\abreve' on input line 30.
 
 \@nomenclaturefile=\write6
 \openout6 = `thesis.nlo'.
 
 Writing nomenclature file thesis.nlo
-(./thesis.nls) [8
+(./thesis.nls) [7
 
 
 ] (./Chapter1/chapter1.tex
 Ch\uhorn \ohorn ng 1.
+
+Package hyperref Warning: Composite letter `\textacute+\ohorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 3.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ocircumflex' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\dj' on input line 3.
+
+
+Package hyperref Warning: Composite letter `\textasciigrave+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciigrave' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 3.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+a'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\dj' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ocircumflex' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\ohorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 5.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 5.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 6.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 6.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 6.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 6.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 6.
+
+<Chapter1/Chapter1Figs/fig1_2.png, id=110, 491.8375pt x 282.05376pt>
+File: Chapter1/Chapter1Figs/fig1_2.png Graphic file (type png)
+<use Chapter1/Chapter1Figs/fig1_2.png>
+Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_2.png  used on input line 8
+.
+(pdftex.def)             Requested size: 341.43306pt x 195.80943pt.
+[1
+
+
+ <./Chapter1/Chapter1Figs/fig1_2.png (PNG copy)>]
+
+Package hyperref Warning: Composite letter `\textdotbelow+a'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 12.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 12.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 12.
+
+
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 20.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ocircumflex' on input line 20.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 20.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\ohorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 20.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 20.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 20.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 20.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ocircumflex' on input line 29.
+
+
+Package hyperref Warning: Composite letter `\textasciigrave+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciigrave' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 29.
+
+
+Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 29.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 29.
+
+
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 29.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ocircumflex' on input line 29.
+
+<Chapter1/Chapter1Figs/fig1_1.PNG, id=115, 338.76563pt x 240.14719pt>
+File: Chapter1/Chapter1Figs/fig1_1.PNG Graphic file (type png)
+<use Chapter1/Chapter1Figs/fig1_1.PNG>
+Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_1.PNG  used on input line 3
+0.
+(pdftex.def)             Requested size: 341.43306pt x 242.04837pt.
+) (./Chapter2/chapter2.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 17.97171pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] [3 <./Chapter1/Chapter1Figs/fig1_1.PNG>]
+Ch\uhorn \ohorn ng 2.
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\ohorn' on input line 3.
@@ -1190,8 +1447,7 @@ Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\ecircumflex' on input line 11.
 
-[1
-
+[4
 
 ]
 
@@ -1225,25 +1481,19 @@ Package hyperref Warning: Glyph not defined in PD1 encoding,
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\h' on input line 15.
 
-<Chapter1/Chapter1Figs/fig1_1.png, id=166, 631.35875pt x 332.24126pt>
-File: Chapter1/Chapter1Figs/fig1_1.png Graphic file (type png)
-<use Chapter1/Chapter1Figs/fig1_1.png>
-Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_1.png  used on input line 1
+<Chapter2/Chapter2Figs/fig2_1.png, id=130, 631.35875pt x 332.24126pt>
+File: Chapter2/Chapter2Figs/fig2_1.png Graphic file (type png)
+<use Chapter2/Chapter2Figs/fig2_1.png>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_1.png  used on input line 1
 8.
 (pdftex.def)             Requested size: 341.43306pt x 179.67628pt.
-<Chapter1/Chapter1Figs/fig1_2.png, id=167, 840.13875pt x 362.35374pt>
-File: Chapter1/Chapter1Figs/fig1_2.png Graphic file (type png)
-<use Chapter1/Chapter1Figs/fig1_2.png>
-Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_2.png  used on input line 2
+<Chapter2/Chapter2Figs/fig2_2.png, id=131, 840.13875pt x 362.35374pt>
+File: Chapter2/Chapter2Figs/fig2_2.png Graphic file (type png)
+<use Chapter2/Chapter2Figs/fig2_2.png>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_2.png  used on input line 2
 3.
 (pdftex.def)             Requested size: 341.43306pt x 147.26114pt.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 17.97171pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
+[5]
 
 Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
 (hyperref)                not defined in PD1 encoding,
@@ -1279,20 +1529,20 @@ Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\ecircumflex' on input line 26.
 
-<Chapter1/Chapter1Figs/fig1_3.jpg, id=173, 349.305pt x 394.47375pt>
-File: Chapter1/Chapter1Figs/fig1_3.jpg Graphic file (type jpg)
-<use Chapter1/Chapter1Figs/fig1_3.jpg>
-Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_3.jpg  used on input line 3
+<Chapter2/Chapter2Figs/fig2_3.jpg, id=137, 349.305pt x 394.47375pt>
+File: Chapter2/Chapter2Figs/fig2_3.jpg Graphic file (type jpg)
+<use Chapter2/Chapter2Figs/fig2_3.jpg>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_3.jpg  used on input line 3
 2.
 (pdftex.def)             Requested size: 341.43306pt x 385.60652pt.
-<Chapter1/Chapter1Figs/fig1_4.png, id=174, 903.375pt x 328.22626pt>
-File: Chapter1/Chapter1Figs/fig1_4.png Graphic file (type png)
-<use Chapter1/Chapter1Figs/fig1_4.png>
-Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_4.png  used on input line 3
+<Chapter2/Chapter2Figs/fig2_4.png, id=138, 903.375pt x 328.22626pt>
+File: Chapter2/Chapter2Figs/fig2_4.png Graphic file (type png)
+<use Chapter2/Chapter2Figs/fig2_4.png>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_4.png  used on input line 3
 6.
 (pdftex.def)             Requested size: 341.43306pt x 124.05615pt.
-[3 <./Chapter1/Chapter1Figs/fig1_1.png> <./Chapter1/Chapter1Figs/fig1_2.png>]
-[4 <./Chapter1/Chapter1Figs/fig1_3.jpg>]
+[6 <./Chapter2/Chapter2Figs/fig2_1.png> <./Chapter2/Chapter2Figs/fig2_2.png>]
+[7 <./Chapter2/Chapter2Figs/fig2_3.jpg>]
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\h' on input line 39.
@@ -1310,10 +1560,10 @@ Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
 Package hyperref Warning: Glyph not defined in PD1 encoding,
 (hyperref)                removing `\acircumflex' on input line 39.
 
-<Chapter1/Chapter1Figs/fig1_5.png, id=186, 606.265pt x 261.97874pt>
-File: Chapter1/Chapter1Figs/fig1_5.png Graphic file (type png)
-<use Chapter1/Chapter1Figs/fig1_5.png>
-Package pdftex.def Info: Chapter1/Chapter1Figs/fig1_5.png  used on input line 6
+<Chapter2/Chapter2Figs/fig2_5.png, id=150, 606.265pt x 261.97874pt>
+File: Chapter2/Chapter2Figs/fig2_5.png Graphic file (type png)
+<use Chapter2/Chapter2Figs/fig2_5.png>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_5.png  used on input line 6
 3.
 (pdftex.def)             Requested size: 341.43306pt x 147.54256pt.
 
@@ -1322,795 +1572,170 @@ Package hyperref Warning: Composite letter `\textdotbelow+a'
 (hyperref)                removing `\textdotbelow' on input line 66.
 
 
+Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 66.
+
+
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 66.
+(hyperref)                removing `\ecircumflex' on input line 66.
 
 
-Package hyperref Warning: Composite letter `\textacute+\UHORN'
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textacute' on input line 66.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\UHORN' on input line 66.
+(hyperref)                removing `\ocircumflex' on input line 66.
+
+<Chapter2/Chapter2Figs/fig2_6.png, id=151, 692.5875pt x 392.46625pt>
+File: Chapter2/Chapter2Figs/fig2_6.png Graphic file (type png)
+<use Chapter2/Chapter2Figs/fig2_6.png>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_6.png  used on input line 6
+8.
+(pdftex.def)             Requested size: 341.43306pt x 193.48389pt.
+[8 <./Chapter2/Chapter2Figs/fig2_4.png>]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 70.
 
 
-Package hyperref Warning: Composite letter `\textdotbelow+u'
+Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 66.
+(hyperref)                removing `\textasciigrave' on input line 70.
 
 
-Package hyperref Warning: Composite letter `\textdotbelow+a'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 67.
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\acircumflex' on input line 70.
 
-[5 <./Chapter1/Chapter1Figs/fig1_4.png>]
 
-Package hyperref Warning: Composite letter `\textacute+\UHORN'
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textacute' on input line 70.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\UHORN' on input line 70.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+u'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 70.
-
-[6 <./Chapter1/Chapter1Figs/fig1_5.png>] [7]) (./Chapter3/chapter3.tex [8]
-Ch\uhorn \ohorn ng 2.
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 5.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 5.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 5.
-
-
-Package hyperref Warning: Composite letter `\textacute+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 5.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 6.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 6.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 6.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 6.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 6.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 6.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 15.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\ohorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 15.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+u'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 16.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 16.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 16.
-
-<Chapter3/Chapter3Figs/fig3_3.jpg, id=209, 1505.625pt x 1505.625pt>
-File: Chapter3/Chapter3Figs/fig3_3.jpg Graphic file (type jpg)
-<use Chapter3/Chapter3Figs/fig3_3.jpg>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_3.jpg  used on input line 1
-7.
-(pdftex.def)             Requested size: 256.0748pt x 256.06773pt.
-[9
-
-] [10 <./Chapter3/Chapter3Figs/fig3_3.jpg>]
-<Chapter3/Chapter3Figs/fig3_7.jpg, id=223, 702.625pt x 702.625pt>
-File: Chapter3/Chapter3Figs/fig3_7.jpg Graphic file (type jpg)
-<use Chapter3/Chapter3Figs/fig3_7.jpg>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_7.jpg  used on input line 4
-3.
-(pdftex.def)             Requested size: 256.0748pt x 256.07538pt.
- [11 <./Chapter3/Chapter3Figs/fig3_7.jpg>]
-<Chapter3/Chapter3Figs/fig3_5.jpg, id=231, 2055.68pt x 1806.75pt>
-File: Chapter3/Chapter3Figs/fig3_5.jpg Graphic file (type jpg)
-<use Chapter3/Chapter3Figs/fig3_5.jpg>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_5.jpg  used on input line 6
-4.
-(pdftex.def)             Requested size: 256.0748pt x 225.0437pt.
-<Chapter3/Chapter3Figs/fig3_6.jpg, id=232, 2055.68pt x 1715.40875pt>
-File: Chapter3/Chapter3Figs/fig3_6.jpg Graphic file (type jpg)
-<use Chapter3/Chapter3Figs/fig3_6.jpg>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_6.jpg  used on input line 6
+(hyperref)                removing `\ocircumflex' on input line 70.
+
+[9 <./Chapter2/Chapter2Figs/fig2_5.png>]
+<Chapter2/Chapter2Figs/fig2_7.jpg, id=163, 472.01344pt x 147.55125pt>
+File: Chapter2/Chapter2Figs/fig2_7.jpg Graphic file (type jpg)
+<use Chapter2/Chapter2Figs/fig2_7.jpg>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_7.jpg  used on input line 8
 6.
-(pdftex.def)             Requested size: 256.0748pt x 213.66649pt.
- [12 <./Chapter3/Chapter3Figs/fig3_5.jpg>] [13 <./Chapter3/Chapter3Figs/fig3_6.
-jpg>]
-Overfull \hbox (0.83743pt too wide) in paragraph at lines 97--98
-[]\T5/cmr/m/n/12 BTXD: Th÷íng khæng sû döng, ch¥n truy·n t½n hi»u, dòng ^^_º gi
-ao ti¸p n¤p Firmware
- []
-
-<Chapter3/Chapter3Figs/fig3_4.jpg, id=244, 135.50626pt x 95.75775pt>
-File: Chapter3/Chapter3Figs/fig3_4.jpg Graphic file (type jpg)
-<use Chapter3/Chapter3Figs/fig3_4.jpg>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_4.jpg  used on input line 1
-06.
-(pdftex.def)             Requested size: 256.0748pt x 180.96701pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
-
- []
-
-[14 <./Chapter3/Chapter3Figs/fig3_4.jpg>]
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 125.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ocircumflex' on input line 125.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 125.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 125.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 125.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 125.
-
-
-Package hyperref Warning: Composite letter `\textacute+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 125.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 125.
-
-<Chapter3/Chapter3Figs/fig3_8.PNG, id=249, 421.575pt x 190.46156pt>
-File: Chapter3/Chapter3Figs/fig3_8.PNG Graphic file (type png)
-<use Chapter3/Chapter3Figs/fig3_8.PNG>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_8.PNG  used on input line 1
-26.
-(pdftex.def)             Requested size: 256.0748pt x 115.69312pt.
-
-Package hyperref Warning: Composite letter `\textdotbelow+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 128.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 128.
-
+(pdftex.def)             Requested size: 398.33858pt x 124.52306pt.
+ [10 <./Chapter2/Chapter2Figs/fig2_6.png>]
 
 Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 128.
+(hyperref)                removing `\textdotbelow' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 128.
+(hyperref)                removing `\ecircumflex' on input line 89.
 
 
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
+Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 128.
+(hyperref)                removing `\textacute' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 128.
-
-
-Package hyperref Warning: Composite letter `\textacute+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 128.
+(hyperref)                removing `\ocircumflex' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 128.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+a'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 129.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 129.
+(hyperref)                removing `\h' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 129.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+i'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 129.
-
-
-Package hyperref Warning: Composite letter `\textacute+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 130.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 130.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\u' on input line 130.
-
-[15]
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 138.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 138.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 139.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 139.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+a'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 139.
-
-<Chapter3/Chapter3Figs/fig3_1.PNG, id=256, 475.02469pt x 241.65282pt>
-File: Chapter3/Chapter3Figs/fig3_1.PNG Graphic file (type png)
-<use Chapter3/Chapter3Figs/fig3_1.PNG>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_1.PNG  used on input line 1
-40.
-(pdftex.def)             Requested size: 256.0748pt x 130.27301pt.
-<Chapter3/Chapter3Figs/fig3_2.PNG, id=257, 505.89pt x 244.66406pt>
-File: Chapter3/Chapter3Figs/fig3_2.PNG Graphic file (type png)
-<use Chapter3/Chapter3Figs/fig3_2.PNG>
-Package pdftex.def Info: Chapter3/Chapter3Figs/fig3_2.PNG  used on input line 1
-42.
-(pdftex.def)             Requested size: 256.0748pt x 123.84743pt.
-) (./Chapter5/conclusion.tex [16 <./Chapter3/Chapter3Figs/fig3_8.PNG> <./Chapte
-r3/Chapter3Figs/fig3_1.PNG> <./Chapter3/Chapter3Figs/fig3_2.PNG>]
-Ch\uhorn \ohorn ng 3.
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\uhorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-) (./Chapter6/Chapter6.tex [17
-
-]
-Ch\uhorn \ohorn ng 4.
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ohorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 3.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 3.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 4.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 4.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 4.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 4.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\UHORN' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 5.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 5.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 9.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 9.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 9.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 9.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 9.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 10.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ohorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 10.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 10.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 10.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 10.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 11.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ohorn'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 11.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 11.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 11.
+(hyperref)                removing `\dj' on input line 89.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+\ocircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 12.
+(hyperref)                removing `\textdotbelow' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ocircumflex' on input line 12.
+(hyperref)                removing `\ocircumflex' on input line 89.
 
 
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 12.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ohorn'
+Package hyperref Warning: Composite letter `\textdotbelow+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 12.
+(hyperref)                removing `\textdotbelow' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 12.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 12.
-
-
-Package hyperref Warning: Composite letter `\textasciigrave+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciigrave' on input line 12.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 12.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 14.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 14.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 14.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 14.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 14.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+a'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 15.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\dj' on input line 15.
+(hyperref)                removing `\dj' on input line 89.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+\ocircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 15.
+(hyperref)                removing `\textdotbelow' on input line 89.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ocircumflex' on input line 15.
+(hyperref)                removing `\ocircumflex' on input line 89.
 
-
-Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 17.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 17.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 17.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 17.
-
+[11 <./Chapter2/Chapter2Figs/fig2_7.jpg>]
+<Chapter2/Chapter2Figs/fig2_8.jpg, id=177, 517.18219pt x 382.42876pt>
+File: Chapter2/Chapter2Figs/fig2_8.jpg Graphic file (type jpg)
+<use Chapter2/Chapter2Figs/fig2_8.jpg>
+Package pdftex.def Info: Chapter2/Chapter2Figs/fig2_8.jpg  used on input line 1
+02.
+(pdftex.def)             Requested size: 398.33858pt x 294.55858pt.
+) (./Chapter3/chapter3.tex)
+(./Chapter4/chapter4.tex)
 
 Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 17.
+(hyperref)                removing `\textdotbelow' on input line 38.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 17.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 18.
+(hyperref)                removing `\ecircumflex' on input line 38.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 18.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 18.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textacute' on input line 19.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 19.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 19.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\acircumflex' on input line 19.
-
-)
-
-Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 39.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 39.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 39.
+(hyperref)                removing `\h' on input line 38.
 
 (./thesis.bbl (./thesis.brf)
 \tf@brf=\write7
 \openout7 = `thesis.brf'.
 
- [18
+ [12] [13 <./Chapter2/Chapter2Figs/fig2_8.jpg>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 42.
 
-] [19])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [20
+[14
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 42.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 42.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 42.
 Package rerunfilecheck Info: File `thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 10215 strings out of 492982
- 142614 string characters out of 6134895
- 236689 words of memory out of 5000000
- 13432 multiletter control sequences out of 15000+600000
- 21003 words of font info for 48 fonts, out of 8000000 for 9000
+ 10129 strings out of 492982
+ 141301 string characters out of 6134895
+ 237065 words of memory out of 5000000
+ 13389 multiletter control sequences out of 15000+600000
+ 20169 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,45p,1179b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,45p,1179b,367s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/vntex/vnr/vnbxti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vn
-r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnti12.pfb>
-Output written on thesis.pdf (29 pages, 2823459 bytes).
+r/share/texlive/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/vntex/vnr/vnr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/vntex/vn
+r/vnti12.pfb>
+Output written on thesis.pdf (22 pages, 1285801 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 101 named destinations out of 1000 (max. 500000)
- 431 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
