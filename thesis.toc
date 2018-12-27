@@ -1,9 +1,9 @@
 \contentsline {chapter}{L\IeC {\`\ohorn }i c\IeC {\h a}m \IeC {\ohorn }n}{i}{Doc-Start}
 \contentsline {chapter}{T\IeC {\'o}m t\IeC {\'\abreve }t}{ii}{Doc-Start}
 \contentsline {chapter}{M\d {u}c l\d {u}c}{iii}{Doc-Start}
-\contentsline {chapter}{Danh s\'ach h\`inh v\~e}{v}{chapter*.1}
-\contentsline {chapter}{Danh s\'ach b\h {a}ng}{vi}{chapter*.2}
-\contentsline {chapter}{Danh m\IeC {\d u}c t\IeC {\`\uhorn } vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}{vii}{chapter*.3}
+\contentsline {chapter}{Danh s\'ach h\`inh v\~e}{vi}{chapter*.1}
+\contentsline {chapter}{Danh s\'ach b\h {a}ng}{vii}{chapter*.2}
+\contentsline {chapter}{Danh m\IeC {\d u}c t\IeC {\`\uhorn } vi\IeC {\'\ecircumflex }t t\IeC {\'\abreve }t}{viii}{chapter*.3}
 \contentsline {chapter}{\numberline {1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u t\IeC {\h \ocircumflex }ng quan \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}\IeC {\'Y} t\IeC {\uhorn }\IeC {\h \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u, ph\IeC {\d a}m vi nghi\IeC {\^e}n c\IeC {\'\uhorn }u v\IeC {\`a} \IeC {\dj }\IeC {\'\ocircumflex }i t\IeC {\uhorn }\IeC {\d \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}\IeC {\'Y} t\IeC {\uhorn }\IeC {\h \ohorn }ng nghi\IeC {\^e}n c\IeC {\'\uhorn }u}{1}{subsection.1.1.1}
@@ -26,4 +26,33 @@
 \contentsline {paragraph}{C\IeC {\'a}c h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng RFID ch\IeC {\h u} \IeC {\dj }\IeC {\d \ocircumflex }ng}{11}{section*.8}
 \contentsline {paragraph}{H\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng RFID th\IeC {\d u} \IeC {\dj }\IeC {\d \ocircumflex }ng}{12}{section*.9}
 \contentsline {paragraph}{C\IeC {\'a}c h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng tr\IeC {\d \ohorn } Pin th\IeC {\d u} \IeC {\dj }\IeC {\d \ocircumflex }ng (Battery-Assisted Passive-BAP)}{12}{section*.10}
-\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{12}{figure.2.8}
+\contentsline {section}{\numberline {2.2}C\IeC {\ohorn } s\IeC {\h \ohorn } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u MongoDB}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}NoSql l\IeC {\`a} g\IeC {\`\i }?}{12}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}MongoDB l\IeC {\`a} g\IeC {\`\i }?}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}\IeC {\UHORN }u \IeC {\dj }i\IeC {\h \ecircumflex }m c\IeC {\h u}a MongoDB}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Nh\IeC {\uhorn }\IeC {\d \ohorn }c \IeC {\dj }i\IeC {\h \ecircumflex }m}{14}{subsection.2.2.4}
+\contentsline {chapter}{\numberline {3}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } v\IeC {\`a} th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } ki\IeC {\'\ecircumflex }n tr\IeC {\'u}c ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}C\IeC {\'a}c th\IeC {\`a}nh ph\IeC {\`\acircumflex }n}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Y\IeC {\^e}u c\IeC {\`\acircumflex }u thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex }}{16}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n c\IeC {\'\uhorn }ng}{16}{section.3.2}
+\contentsline {chapter}{\numberline {4}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } v\IeC {\`a} th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n m\IeC {\`\ecircumflex }m}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex } ki\IeC {\'\ecircumflex }n tr\IeC {\'u}c ph\IeC {\`\acircumflex }n m\IeC {\`\ecircumflex }m}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}C\IeC {\'a}c th\IeC {\`a}nh ph\IeC {\`\acircumflex }n}{17}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Y\IeC {\^e}u c\IeC {\`\acircumflex }u thi\IeC {\'\ecircumflex }t k\IeC {\'\ecircumflex }}{17}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n ph\IeC {\`\acircumflex }n m\IeC {\`\ecircumflex }m}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t v\IeC {\`a} c\IeC {\'\acircumflex }u h\IeC {\`\i }nh MongoDB}{17}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t MongoBD}{17}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}C\IeC {\'\acircumflex }u h\IeC {\`\i }nh MongoDB}{18}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}T\IeC {\d a}o Server truy xu\IeC {\'\acircumflex }t MongoDB}{18}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t NodeJS v\IeC {\`a} T\IeC {\d a}o Project}{18}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t module mongoose}{20}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t module express}{20}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}T\IeC {\d a}o web server d\IeC {\`u}ng express}{20}{subsubsection.4.2.2.4}
+\contentsline {chapter}{\numberline {5}K\IeC {\'\ecircumflex }t qu\IeC {\h a} v\IeC {\d \acircumflex }n h\IeC {\`a}nh th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex }}{24}{chapter.5}
+\contentsline {chapter}{\numberline {6}\IeC {\DJ }\IeC {\'a}nh gi\IeC {\'a} v\IeC {\`a} H\IeC {\uhorn }\IeC {\'\ohorn }ng ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}\IeC {\DJ }\IeC {\'a}nh gi\IeC {\'a}}{25}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}\IeC {\UHORN }u \IeC {\dj }i\IeC {\h \ecircumflex }m}{25}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Khuy\IeC {\'\ecircumflex }t \IeC {\dj }i\IeC {\h \ecircumflex }m}{25}{subsection.6.1.2}
+\contentsline {section}{\numberline {6.2}H\IeC {\uhorn }\IeC {\'\ohorn }ng ph\IeC {\'a}t tri\IeC {\h \ecircumflex }n}{25}{section.6.2}
+\contentsline {chapter}{T\IeC {\`a}i li\IeC {\d \ecircumflex }u tham kh\IeC {\h a}o}{25}{section.6.2}

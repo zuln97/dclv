@@ -1,0 +1,103 @@
+\headerandfooterconfig
+
+\chapter{Thiết kế và thực hiện phần mềm}
+
+\section{Thiết kế kiến trúc phần mềm}
+\subsection{Các thành phần}
+Kiến trúc phần mềm của hệ thống gồm nhiều thành phần:
+\begin{itemize}
+	\item Đọc và xử lý data từ các Tags.
+	\item Tạo Server có kết nối với CSDL MongoDB để lưu data.
+	\item Tạo Web service hiển thị trực quan các thông tin từ CSDL MongoDB.
+\end{itemize}
+\subsection{Yêu cầu thiết kế}
+\begin{itemize}
+	\item Đáp ứng thực hiện đầy đủ các thành phần trong kiến trúc phần mềm của hệ thống.
+	\item Đảm bảo hệ thống vận hành chính xác, hiệu quả, độ trễ thấp, kết nối bền vững.
+	\item Giao diện web thân thiện, dễ truy cập, ít tốn tài nguyên.
+\end{itemize}
+
+\section{Thực hiện phần mềm}
+\subsection{Cài đặt và cấu hình MongoDB}
+\subsubsection{Cài đặt MongoBD}
+Hệ điều hành sử dụng trong đề cương: Ubuntu 18.04.1 LTS.\\
+Tiến hành truy cập trang chủ $https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/$ và cài đặt theo các hướng dẫn.
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_1}{Hướng dẫn cài đặt MongoDB trên Ubuntu}
+\label{ref{fig4_1}}
+\subsubsection{Cấu hình MongoDB}
+Mở Terminal và gõ \textbf{sudo service mongod start} để khởi chạy MongoDB.\\
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_2}{Khởi chạy MongoDB}
+\label{ref{fig4_2}}
+
+Gõ \textbf{mongo} để truy xuất MongoDB.
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_3}{Truy xuất MongoDB}
+\label{ref{fig4_3}}
+Gõ \textbf{show dbs} để xem tất cả các database trong máy.
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_4}{Xem tất cả các database MongoDB}
+\label{ref{fig4_4}}
+
+\subsection{Tạo Server truy xuất MongoDB}
+Ngôn ngữ lập trình NodeJS được sử dụng. Nhiệm vụ của server là kết nối với MongoDB để truy xuất dữ liệu bằng các phương thức GET/POST của giao thức HTTP.
+
+\subsubsection{Cài đặt NodeJS và Tạo Project}
+Yêu cầu: hệ điều hành đã cài đặt NodeJS.\\
+Tiến hành tạo thư mục chứa project có tên \textbf{nodejs-mongodb}.\\
+Mở Terminal và gõ \textbf{npm init} để tạo project nodejs.\\
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_5}{Tạo project nodejs}
+\label{ref{fig4_5}}
+
+\subsubsection{Cài đặt module mongoose}
+Mongoose được sử dụng để mô hình hóa các mô hình dữ liệu ứng dụng bằng cách sử dụng Schema. Mongoose đã tích hợp các tính năng để truy vấn cơ sở dữ liệu, xác thực đầu vào, v.v. Collection trong cơ sở dữ liệu mongoDB được ánh xạ bởi một Schema trong mongoose.\\
+Gõ \textbf{npm install --save mongoose}
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_6}{Cài đặt module mongoose}
+\label{ref{fig4_6}}
+
+\subsubsection{Cài đặt module express}
+Express framework được cài đặt và được sử dụng để tạo một máy chủ web.
+Gõ \textbf{npm install --save express}
+\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_7}{Cài đặt module express}
+\label{ref{fig4_7}}
+
+\subsubsection{Tạo web server dùng express}
+Trong thư mục project tạo file \textbf{app.js} 
+\begin{lstlisting}
+var express = require('express'), //Import the express module
+
+  app = express(),
+
+  port = process.env.PORT || 8000,
+
+  mongoose = require('mongoose'), //Import the mongoose module
+
+  Tag = require('./restapi/models/tagModel'),
+
+  bodyParser = require('body-parser'); //Import the body-parser module
+  
+// Get Mongoose to use the global promise library
+mongoose.Promise = global.Promise;
+
+//Set up default mongoose connection
+mongoose.connect('mongodb://localhost/rfid');
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(bodyParser.json());
+
+var routes = require('./restapi/routes/tagRoutes');
+
+routes(app);
+
+app.use(function(req, res) {
+
+  res.status(404).send({url: req.originalUrl + ' not found'})
+
+});
+
+app.listen(port);
+
+console.log('rfid -  RESTful web services with Nodejs started on: ' + port);
+\end{lstlisting}
+
+
+
+

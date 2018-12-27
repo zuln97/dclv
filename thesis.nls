@@ -4,5 +4,6 @@
   	\item {RFID} Radio Frequency IDentification
  	\item {LF} Low Frequency
  	\item {HF} High Frequency
- 	\item {UHF} Ultra-High Frequency	
+ 	\item {UHF} Ultra-High Frequency
+ 	\item {CSDL} Cơ sở dữ liệu	
 \end{thenomenclature}
