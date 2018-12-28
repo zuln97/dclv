@@ -6,4 +6,12 @@
  	\item {HF} High Frequency
  	\item {UHF} Ultra-High Frequency
  	\item {CSDL} Cơ sở dữ liệu	
+ 	\item {NoSQL} Non-Relational SQL
+ 	\item {SQL}  Structured Query Language
+ 	\item {JSON} JavaScript Object Notation
+ 	\item {RDBMS} Relational Database Management System
+ 	\item {DB} Database
+ 	\item {npm} node package manager
+ 	\item {HTTP} HyperText Transfer Protocol
+ 	\item {EPC} Electronic Product Code
 \end{thenomenclature}
