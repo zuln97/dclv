@@ -22,18 +22,18 @@ Kiến trúc phần mềm của hệ thống gồm nhiều thành phần:
 \subsubsection{Cài đặt MongoBD}
 Hệ điều hành sử dụng trong đề cương: Ubuntu 18.04.1 LTS.\\
 Tiến hành truy cập trang chủ $https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/$ và cài đặt theo các hướng dẫn.
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_1}{Hướng dẫn cài đặt MongoDB trên Ubuntu}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_1}{Hướng dẫn cài đặt MongoDB trên Ubuntu}
 \label{ref{fig4_1}}
 \subsubsection{Cấu hình MongoDB}
 Mở Terminal và gõ \textbf{sudo service mongod start} để khởi chạy MongoDB.\\
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_2}{Khởi chạy MongoDB}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_2}{Khởi chạy MongoDB}
 \label{ref{fig4_2}}
 
 Gõ \textbf{mongo} để truy xuất MongoDB.
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_3}{Truy xuất MongoDB}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_3}{Truy xuất MongoDB}
 \label{ref{fig4_3}}
 Gõ \textbf{show dbs} để xem tất cả các database trong máy.
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_4}{Xem tất cả các database MongoDB}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_4}{Xem tất cả các database MongoDB}
 \label{ref{fig4_4}}
 
 \subsection{Tạo Server truy xuất MongoDB}
@@ -43,19 +43,21 @@ Ngôn ngữ lập trình NodeJS được sử dụng. Nhiệm vụ của server 
 Yêu cầu: hệ điều hành đã cài đặt NodeJS.\\
 Tiến hành tạo thư mục chứa project có tên \textbf{nodejs-mongodb}.\\
 Mở Terminal và gõ \textbf{npm init} để tạo project nodejs.\\
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_5}{Tạo project nodejs}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_5}{Tạo project nodejs}
 \label{ref{fig4_5}}
 
 \subsubsection{Cài đặt module mongoose}
-Mongoose được sử dụng để mô hình hóa các mô hình dữ liệu ứng dụng bằng cách sử dụng Schema. Mongoose đã tích hợp các tính năng để truy vấn cơ sở dữ liệu, xác thực đầu vào, v.v. Collection trong cơ sở dữ liệu mongoDB được ánh xạ bởi một Schema trong mongoose.\\
+Mongoose là một thư viện mô hình hóa đối tượng (Object Data Model - ODM) cho MongoDB và Node.js. Nó quản lý mối quan hệ giữa dữ liệu, cung cấp sự xác nhận giản đồ và được sử dụng để dịch giữa các đối tượng trong mã và biểu diễn các đối tượng trong MongoDB.
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_6_1}{Mô hình mongoose, nodejs, mongodb}
+\label{ref{fig4_6_1}}
 Gõ \textbf{npm install --save mongoose}
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_6}{Cài đặt module mongoose}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_6}{Cài đặt module mongoose}
 \label{ref{fig4_6}}
 
 \subsubsection{Cài đặt module express}
 Express framework được cài đặt và được sử dụng để tạo một máy chủ web.
 Gõ \textbf{npm install --save express}
-\Figure{htp}{16}{Chapter4/Chapter4Figs/fig4_7}{Cài đặt module express}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_7}{Cài đặt module express}
 \label{ref{fig4_7}}
 
 \subsubsection{Tạo web server dùng express}
@@ -97,7 +99,530 @@ app.listen(port);
 
 console.log('rfid -  RESTful web services with Nodejs started on: ' + port);
 \end{lstlisting}
+Tạo thư mục \textbf{restapi}. Trong thư mục \textbf{restapi} taoj các thư mục con \textbf{controller}, \textbf{models} và \textbf{routes}.
+\subsubsection{Tạo file Controller, Model và Routes}
+Trong thư mục \textbf{models} tạo file  \textbf{tagModel.js} để tạo các Schema cho tag.
+\begin{lstlisting}
+'use strict';
 
+var mongoose = require('mongoose'); //Require Mongoose
+
+
+//Define a schema
+var Schema = mongoose.Schema;
+ 
+var TagSchema = new Schema({
+
+	Ant_Id: { type: String, required:  'Ant_Id cannot be left blank.' },
+
+	PC: { type: String, required:  'PC cannot be left blank.' },
+  
+	EPC:    { type: String, required:  'EPC cannot be left blank.', index: {unique: true}},
+
+	Date:  {type: Date, required: true, default: Date.now }
+});
+// Compile model from schema
+module.exports = mongoose.model('Tags', TagSchema);
+
+//Define a schema
+var LogSchema = new Schema({
+
+	Ant_Id: { type: String, required:  'Ant_Id cannot be left blank.' },
+
+	PC: { type: String, required:  'PC cannot be left blank.' },
+  
+	EPC:    { type: String, required:  'EPC cannot be left blank.'},
+
+	Date:  {type: Date, required: true, default: Date.now }
+});
+// Compile model from schema
+module.exports = mongoose.model('Logs', LogSchema);
+\end{lstlisting}
+
+Trong đó, AntID, PC, EPC, Date là những thông tin cần có trong tag database.\\
+
+Trong thư mục \textbf{controller} tạo file  \textbf{tagController.js} để quản lý các phương thức truy xuất database.
+\begin{lstlisting}
+'use strict';
+
+var mongoose = require('mongoose');
+
+var Tag = mongoose.model('Tags');
+
+var Log = mongoose.model('Logs');
+
+exports.tags = function(req, res) {
+  Tag.find({}, function(err, tag) {
+    if (err)
+      res.send(err);
+    res.json(tag);
+  });
+};
+
+exports.add = function(req, res) {
+  var new_tag = new Tag(req.body);
+  new_tag.save(function(err, tag) {
+    if (err)
+      res.send(err);
+    res.json(tag);
+  });
+};
+
+exports.gettag = function(req, res) {
+  Tag.findById(mongoose.Types.ObjectId(req.query.tagId), function(err, tag) {
+    if (err)
+      res.send(err);
+    res.json(tag);
+  });
+};
+
+exports.update = function(req, res) {
+  var id = mongoose.Types.ObjectId(req.query.tagId);
+  Tag.findOneAndUpdate({_id: id}, req.body, {new: true}, function(err, tag) {
+    if (err)
+      res.send(err);
+    res.json(tag);
+  });
+};
+
+exports.delete = function(req, res) {
+  var id = mongoose.Types.ObjectId(req.query.tagId);
+  Tag.remove({
+    _id: id
+  }, function(err, tag) {
+    if (err)
+      res.send(err);
+    res.json({ message: 'Tag deleted successfully' });
+  });
+};
+
+
+//////for logs
+
+    
+exports.logs = function(req, res) {
+  Log.find({}, function(err, log) {
+    if (err)
+      res.send(err);
+    res.json(log);
+  });
+};
+
+exports.add_log = function(req, res) {
+  var new_log = new Log(req.body);
+  new_log.save(function(err, log) {
+    if (err)
+      res.send(err);
+    res.json(log);
+  });
+};
+
+exports.getlog = function(req, res) {
+  Log.findById(mongoose.Types.ObjectId(req.query.logId), function(err, log) {
+    if (err)
+      res.send(err);
+    res.json(log);
+  });
+};
+
+exports.update_log = function(req, res) {
+  var log_id = mongoose.Types.ObjectId(req.query.logId);
+  Log.findOneAndUpdate({_id: log_id}, req.body, {new: true}, function(err, log) {
+    if (err)
+      res.send(err);
+    res.json(log);
+  });
+};
+
+exports.delete_log = function(req, res) {
+  var log_id = mongoose.Types.ObjectId(req.query.logId);
+  Log.remove({
+    _id: log_id
+  }, function(err, log) {
+    if (err)
+      res.send(err);
+    res.json({ message: 'Tag deleted successfully' });
+  });
+};
+\end{lstlisting}
+
+Trong thư mục \textbf{routes} tạo file  \textbf{tagRoutes.js} để quản lý các đường dẫn dùng để truy xuất database.
+\begin{lstlisting}
+'use strict';
+
+module.exports = function(app) {
+
+    var tag = require('../controllers/tagController');
+
+    var log = require('../controllers/tagController');
+
+    app.route('/tags')
+
+        .get(tag.tags)
+
+        .post(tag.add);
+
+    app.route('/tags/:tagId')
+
+        .get(tag.gettag)
+
+        .put(tag.update)
+        
+        .delete(tag.delete);
+
+    app.route('/logs')
+
+        .get(log.logs)
+
+        .post(log.add_log);
+
+    app.route('/logs/:logId')
+
+        .get(log.getlog)
+
+        .put(log.update_log)
+        
+        .delete(log.delete_log);
+};
+\end{lstlisting}
+Trong thư mục chứa project, mở Terminal và gõ \textbf{node app.js} để khởi chạy ứng dụng.
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_8}{Khởi chạy ứng dụng NodeJS}
+\label{ref{fig4_8}}
+
+\subsection{Tạo ứng dụng web hiển thị trực quan MongoDB}
+Module được sử dụng \textbf{express-generator}.\\
+Tiến hành update Express và Express-generator, mở terminal và gõ \textbf{npm update -g express}.\\
+Gõ tiếp \textbf{npm update -g express-generator}.\\
+Cuối cùng, gõ \textbf{express uhf-rfid-web} để tạo project express.
+Trong file \textbf{package.json} chỉnh sửa để thêm một số module cần cho MongoDB.
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_9}{File package.json}
+\label{ref{fig4_9}}
+
+Mở thư mục \textbf{views},bắt đầu với file \textbf{layout.jade}
+\begin{lstlisting}
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='shortcut icon', type='image/png' href='/images/database.png')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js')
+    script(src='/javascripts/global.js')
+\end{lstlisting}
+
+Mở \textbf{index.js} để tạo web chính
+\begin{lstlisting}
+extends layout
+
+block content
+  h1= title
+  h3 Welcome to our test
+
+  // Wrapper
+  #wrapper
+
+    // TAG INFO
+    #tagInfo
+      h2 Tag Info
+      p
+        strong Id:
+        |  <span id='tagInfoId'></span>
+        br
+        strong AntennaId:
+        |  <span id='tagInfoAntennaId'></span>
+        br
+        strong PC:
+        |  <span id='tagInfoPc'></span>
+        br
+        strong EPC:
+        |  <span id='tagInfoEpc'></span>
+        br
+        strong Date:
+        |  <span id='tagInfoDate'></span>
+    // /TAG INFO
+
+    // TAG LIST
+    
+
+    #tagList
+      h2 Tag List
+      table
+        thead
+          th ID
+          // th ANTENNA ID
+          // th PC 
+          th EPC
+          // th DATE
+          th DELETE?
+        tbody
+    // /TAG LIST
+
+  // /FOOTER
+  // #footer
+  //    h5 This project  
+  // /WRAPPER
+\end{lstlisting}
+
+Mở app.js và chỉnh sửa như sau, app.js sẽ vận hành tất cả các thao tác để tạo web hiển thị thông tin từ database cho người dùng.
+\begin{lstlisting}
+var createError = require('http-errors');
+var express = require('express');
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
+
+// Database
+var mongo = require('mongodb');
+var monk = require('monk');
+var db = monk('localhost:27017/rfid');
+var indexRouter = require('./routes/index');
+var tagsRouter = require('./routes/tags');
+var logsRouter = require('./routes/logs');
+
+var app = express();
+
+// view engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Make our db accessible to our router
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+});
+
+app.use('/', indexRouter);
+app.use('/tags', tagsRouter);
+app.use('/logs', logsRouter);
+
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404));
+});
+
+// error handler
+app.use(function(err, req, res, next) {
+  // set locals, only providing error in development
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  // render the error page
+  res.status(err.status || 500);
+  res.render('error');
+});
+
+module.exports = app;
+\end{lstlisting}
+
+Trong thư mục \textbf{routes}, mở file \textbf{index.js}, \textbf{index.js} sẽ chứa đường dẫn truy cập vào web hiển thị thông tin.
+\begin{lstlisting}
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'UHF RFID' });
+});
+router.get('/logs', function(req, res, next) {
+	res.render('index_logs', { title: 'UHF RFID LOGS' });
+});
+
+module.exports = router;
+
+\end{lstlisting}
+
+Trong thư mục public/javascripts, tạo file global.js. Trong đây sẽ chứa các function truy cập database và truy xuất dữ liệu.
+\begin{lstlisting}
+// Taglist data array for filling in info box
+var tagListData = [];
+
+// DOM Ready =============================================================
+$(document).ready(function() {
+
+  // Populate the tag table on initial page load
+  populateTable();
+  // Tag link click
+$('#tagList table tbody').on('click', 'td a.linkshowtag', showTagInfo);
+});
+  // Add User button click
+  $('#btnAddTag').on('click', addTag);
+    // Delete User link click
+  $('#tagList table tbody').on('click', 'td a.linkdeletetag', deleteTag);
+
+// Functions =============================================================
+
+// Fill table with data
+function populateTable() {
+
+  // Empty content string
+  var tableContent = '';
+
+
+  // jQuery AJAX call for JSONvar express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'UHF RFID' });
+});
+router.get('/logs', function(req, res, next) {
+	res.render('index_logs', { title: 'UHF RFID LOGS' });
+});
+
+module.exports = router;
+  $.getJSON( '/tags/taglist', function( data ) {
+    // Stick our user data array into a taglist variable in the global object
+tagListData = data;
+    // For each item in our JSON, add a table row and cells to the content string
+    $.each(data, function(){
+      tableContent += '<tr>';
+      tableContent += '<td><a href="#" class="linkshowtag" rel="' + this._id + '">' + this._id + '</a></td>';
+      // tableContent += '<td>' + this.Ant_Id + '</td>';
+      // tableContent += '<td>' + this.PC + '</td>';
+      tableContent += '<td>' + this.EPC + '</td>';
+      // tableContent += '<td>' + this.Date + '</td>';
+      tableContent += '<td><a href="#" class="linkdeletetag" rel="' + this._id + '">DELETE</a></td>';
+      tableContent += '</tr>';
+    });
+
+    // Inject the whole content string into our existing HTML table
+    $('#tagList table tbody').html(tableContent);
+  });
+};
+
+// Show Tag Info
+function showTagInfo(event) {
+
+  // Prevent Link from Firing
+  event.preventDefault();
+
+  // Retrieve username from link rel attribute
+  var thisTagName = $(this).attr('rel');
+
+  // Get Index of object based on id value
+  var arrayPosition = tagListData.map(function(arrayItem) { return arrayItem._id; }).indexOf(thisTagName);
+  // Get our Tag Object
+  var thisTagObject = tagListData[arrayPosition];
+  //Handle Date Data
+  var date = new Date(thisTagObject.Date);
+  var a = date.toDateString() +'  '+date.toTimeString();
+
+  //Populate Info Box
+  $('#tagInfoId').text(thisTagObject._id);
+  $('#tagInfoAntennaId').text(thisTagObject.Ant_Id);
+  $('#tagInfoPc').text(thisTagObject.PC);
+  $('#tagInfoEpc').text(thisTagObject.EPC);
+  $('#tagInfoDate').text(a);
+  // $('#tagInfoDate').text(thisTagObject.Date);
+};
+
+// Add Tag
+function addTag(event) {
+  event.preventDefault();
+
+  // Super basic validation - increase errorCount variable if any fields are blank
+  var errorCount = 0;
+  $('#addTag input').each(function(index, val) {
+    if($(this).val() === '') { errorCount++; }
+  });
+
+  // Check and make sure errorCount's still at zero
+  if(errorCount === 0) {
+
+    // If it is, compile all user info into one object
+    var newTag = {
+      'Ant_Id': $('#addTag fieldset input#inputTagAntennaId').val(),
+      'PC': $('#addTag fieldset input#inputTagPC').val(),
+      'EPC': $('#addTag fieldset input#inputTagEPC').val(),
+      }
+
+    // Use AJAX to post the object to our adduser service
+    $.ajax({
+      type: 'POST',
+      data: newTag,
+      url: '/tags/addtag',
+      dataType: 'JSON'
+    }).done(function( response ) {
+
+      // Check for successful (blank) response
+      if (response.msg === '') {
+
+        // Clear the form inputs
+        $('#addUser fieldset input').val('');
+
+        // Update the table
+        populateTable();
+
+      }
+      else {
+
+        // If something goes wrong, alert the error message that our service returned
+        alert('Error: ' + response.msg);
+
+      }
+    });
+  }
+  else {
+    // If errorCount is more than 0, error out
+    alert('Please fill in all fields');
+    return false;
+  }
+};
+
+// Delete Tag
+function deleteTag(event) {
+
+  event.preventDefault();
+
+  // Pop up a confirmation dialog
+  var confirmation = confirm('Are you sure you want to delete this tag?');
+
+  // Check and make sure the user confirmed
+  if (confirmation === true) {
+
+    // If they did, do our delete
+    $.ajax({
+      type: 'DELETE',
+      url: '/tags/deletetag/' + $(this).attr('rel')
+    }).done(function( response ) {
+
+      // Check for a successful (blank) response
+      if (response.msg === '') {
+      }
+      else {
+        alert('Error: ' + response.msg);
+      }
+
+      // Update the table
+      populateTable();
+
+    });
+
+  }
+  else {
+
+    // If they said no to the confirm, do nothing
+    return false;
+
+  }
+
+};
+
+\end{lstlisting}
+
+
+Để chạy ứng dụng web, mở Terminal và chạy \textbf{npm start}
+\Figure{htp}{12}{Chapter4/Chapter4Figs/fig4_10}{Chạy ứng dụng web}
+\label{ref{fig4_10}}
 
 
 

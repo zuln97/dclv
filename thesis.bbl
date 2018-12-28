@@ -22,6 +22,17 @@
 \BIBdecl
 
 \bibitem{ref001}
- Robert Novelline and Lucy Squire, \emph{Squire's Fundamentals of Radiology}, vol. 5, Harvard University Press, 1997 pp. 34–35. 
+\emph{How to create a nodejs mongodb rest api and test with postman}, URL: http://programmerblog.net/nodejs-mongodb-rest-api/
+
+\bibitem{ref002}
+\emph{Creating a Simple RESTful Web App with Node.js, Express, and MongoDB},  URL: https://closebrace.com/tutorials/2017-03-02/creating-a-simple-restful-web-app-with-nodejs-express-and-mongodb
+
+\bibitem{ref003}
+\emph{Công nghệ RFID là gì ? lịch sử phát triển của RFID},  URL: http://smartid.com.vn/cong-nghe-rfid-la-gi-lich-su-phat-trien-cua-rfid.html
+
+\bibitem{ref004}
+\emph{Ứng dụng và ưu điểm của công nghệ RFID UHF},  URL: http://vn.rfidtagcn.com/info/application-and-advantages-of-rfid-uhf-technol-27459131.html
+
+
 
 \end{thebibliography}
